@@ -1,0 +1,1898 @@
+/*
+  Icon Font: fontawesome
+*/
+
+@font-face {
+  font-family: "fontawesome";
+  src: url("./fontawesome.eot");
+  src: url("./fontawesome.eot?#iefix") format("embedded-opentype"),
+       url("./fontawesome.woff2") format("woff2"),
+       url("./fontawesome.woff") format("woff"),
+       url("./fontawesome.ttf") format("truetype"),
+       url("./fontawesome.svg#fontawesome") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontawesome";
+    src: url("./fontawesome.svg#fontawesome") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.fontawesome-icon-address-book:before,
+.fontawesome-icon-address-card:before,
+.fontawesome-icon-arrow-alt-circle-down:before,
+.fontawesome-icon-arrow-alt-circle-left:before,
+.fontawesome-icon-arrow-alt-circle-right:before,
+.fontawesome-icon-arrow-alt-circle-up:before,
+.fontawesome-icon-bell:before,
+.fontawesome-icon-bell-slash:before,
+.fontawesome-icon-bookmark:before,
+.fontawesome-icon-brands-500px:before,
+.fontawesome-icon-brands-accessible-icon:before,
+.fontawesome-icon-brands-accusoft:before,
+.fontawesome-icon-brands-adn:before,
+.fontawesome-icon-brands-adversal:before,
+.fontawesome-icon-brands-affiliatetheme:before,
+.fontawesome-icon-brands-algolia:before,
+.fontawesome-icon-brands-amazon:before,
+.fontawesome-icon-brands-amazon-pay:before,
+.fontawesome-icon-brands-amilia:before,
+.fontawesome-icon-brands-android:before,
+.fontawesome-icon-brands-angellist:before,
+.fontawesome-icon-brands-angrycreative:before,
+.fontawesome-icon-brands-angular:before,
+.fontawesome-icon-brands-app-store:before,
+.fontawesome-icon-brands-app-store-ios:before,
+.fontawesome-icon-brands-apper:before,
+.fontawesome-icon-brands-apple:before,
+.fontawesome-icon-brands-apple-pay:before,
+.fontawesome-icon-brands-asymmetrik:before,
+.fontawesome-icon-brands-audible:before,
+.fontawesome-icon-brands-autoprefixer:before,
+.fontawesome-icon-brands-avianex:before,
+.fontawesome-icon-brands-aviato:before,
+.fontawesome-icon-brands-aws:before,
+.fontawesome-icon-brands-bandcamp:before,
+.fontawesome-icon-brands-behance:before,
+.fontawesome-icon-brands-behance-square:before,
+.fontawesome-icon-brands-bimobject:before,
+.fontawesome-icon-brands-bitbucket:before,
+.fontawesome-icon-brands-bitcoin:before,
+.fontawesome-icon-brands-bity:before,
+.fontawesome-icon-brands-black-tie:before,
+.fontawesome-icon-brands-blackberry:before,
+.fontawesome-icon-brands-blogger:before,
+.fontawesome-icon-brands-blogger-b:before,
+.fontawesome-icon-brands-bluetooth:before,
+.fontawesome-icon-brands-bluetooth-b:before,
+.fontawesome-icon-brands-btc:before,
+.fontawesome-icon-brands-buromobelexperte:before,
+.fontawesome-icon-brands-buysellads:before,
+.fontawesome-icon-brands-cc-amazon-pay:before,
+.fontawesome-icon-brands-cc-amex:before,
+.fontawesome-icon-brands-cc-apple-pay:before,
+.fontawesome-icon-brands-cc-diners-club:before,
+.fontawesome-icon-brands-cc-discover:before,
+.fontawesome-icon-brands-cc-jcb:before,
+.fontawesome-icon-brands-cc-mastercard:before,
+.fontawesome-icon-brands-cc-paypal:before,
+.fontawesome-icon-brands-cc-stripe:before,
+.fontawesome-icon-brands-cc-visa:before,
+.fontawesome-icon-brands-centercode:before,
+.fontawesome-icon-brands-chrome:before,
+.fontawesome-icon-brands-cloudscale:before,
+.fontawesome-icon-brands-cloudsmith:before,
+.fontawesome-icon-brands-cloudversify:before,
+.fontawesome-icon-brands-codepen:before,
+.fontawesome-icon-brands-codiepie:before,
+.fontawesome-icon-brands-connectdevelop:before,
+.fontawesome-icon-brands-contao:before,
+.fontawesome-icon-brands-cpanel:before,
+.fontawesome-icon-brands-creative-commons:before,
+.fontawesome-icon-brands-css3:before,
+.fontawesome-icon-brands-css3-alt:before,
+.fontawesome-icon-brands-cuttlefish:before,
+.fontawesome-icon-brands-d-and-d:before,
+.fontawesome-icon-brands-dashcube:before,
+.fontawesome-icon-brands-delicious:before,
+.fontawesome-icon-brands-deploydog:before,
+.fontawesome-icon-brands-deskpro:before,
+.fontawesome-icon-brands-deviantart:before,
+.fontawesome-icon-brands-digg:before,
+.fontawesome-icon-brands-digital-ocean:before,
+.fontawesome-icon-brands-discord:before,
+.fontawesome-icon-brands-discourse:before,
+.fontawesome-icon-brands-dochub:before,
+.fontawesome-icon-brands-docker:before,
+.fontawesome-icon-brands-draft2digital:before,
+.fontawesome-icon-brands-dribbble:before,
+.fontawesome-icon-brands-dribbble-square:before,
+.fontawesome-icon-brands-dropbox:before,
+.fontawesome-icon-brands-drupal:before,
+.fontawesome-icon-brands-dyalog:before,
+.fontawesome-icon-brands-earlybirds:before,
+.fontawesome-icon-brands-edge:before,
+.fontawesome-icon-brands-elementor:before,
+.fontawesome-icon-brands-ember:before,
+.fontawesome-icon-brands-empire:before,
+.fontawesome-icon-brands-envira:before,
+.fontawesome-icon-brands-erlang:before,
+.fontawesome-icon-brands-ethereum:before,
+.fontawesome-icon-brands-etsy:before,
+.fontawesome-icon-brands-expeditedssl:before,
+.fontawesome-icon-brands-facebook:before,
+.fontawesome-icon-brands-facebook-f:before,
+.fontawesome-icon-brands-facebook-messenger:before,
+.fontawesome-icon-brands-facebook-square:before,
+.fontawesome-icon-brands-firefox:before,
+.fontawesome-icon-brands-first-order:before,
+.fontawesome-icon-brands-firstdraft:before,
+.fontawesome-icon-brands-flickr:before,
+.fontawesome-icon-brands-flipboard:before,
+.fontawesome-icon-brands-fly:before,
+.fontawesome-icon-brands-font-awesome:before,
+.fontawesome-icon-brands-font-awesome-alt:before,
+.fontawesome-icon-brands-font-awesome-flag:before,
+.fontawesome-icon-brands-fonticons:before,
+.fontawesome-icon-brands-fonticons-fi:before,
+.fontawesome-icon-brands-fort-awesome:before,
+.fontawesome-icon-brands-fort-awesome-alt:before,
+.fontawesome-icon-brands-forumbee:before,
+.fontawesome-icon-brands-foursquare:before,
+.fontawesome-icon-brands-free-code-camp:before,
+.fontawesome-icon-brands-freebsd:before,
+.fontawesome-icon-brands-get-pocket:before,
+.fontawesome-icon-brands-gg:before,
+.fontawesome-icon-brands-gg-circle:before,
+.fontawesome-icon-brands-git:before,
+.fontawesome-icon-brands-git-square:before,
+.fontawesome-icon-brands-github:before,
+.fontawesome-icon-brands-github-alt:before,
+.fontawesome-icon-brands-github-square:before,
+.fontawesome-icon-brands-gitkraken:before,
+.fontawesome-icon-brands-gitlab:before,
+.fontawesome-icon-brands-gitter:before,
+.fontawesome-icon-brands-glide:before,
+.fontawesome-icon-brands-glide-g:before,
+.fontawesome-icon-brands-gofore:before,
+.fontawesome-icon-brands-goodreads:before,
+.fontawesome-icon-brands-goodreads-g:before,
+.fontawesome-icon-brands-google:before,
+.fontawesome-icon-brands-google-drive:before,
+.fontawesome-icon-brands-google-play:before,
+.fontawesome-icon-brands-google-plus:before,
+.fontawesome-icon-brands-google-plus-g:before,
+.fontawesome-icon-brands-google-plus-square:before,
+.fontawesome-icon-brands-google-wallet:before,
+.fontawesome-icon-brands-gratipay:before,
+.fontawesome-icon-brands-grav:before,
+.fontawesome-icon-brands-gripfire:before,
+.fontawesome-icon-brands-grunt:before,
+.fontawesome-icon-brands-gulp:before,
+.fontawesome-icon-brands-hacker-news:before,
+.fontawesome-icon-brands-hacker-news-square:before,
+.fontawesome-icon-brands-hips:before,
+.fontawesome-icon-brands-hire-a-helper:before,
+.fontawesome-icon-brands-hooli:before,
+.fontawesome-icon-brands-hotjar:before,
+.fontawesome-icon-brands-houzz:before,
+.fontawesome-icon-brands-html5:before,
+.fontawesome-icon-brands-hubspot:before,
+.fontawesome-icon-brands-imdb:before,
+.fontawesome-icon-brands-instagram:before,
+.fontawesome-icon-brands-internet-explorer:before,
+.fontawesome-icon-brands-ioxhost:before,
+.fontawesome-icon-brands-itunes:before,
+.fontawesome-icon-brands-itunes-note:before,
+.fontawesome-icon-brands-jenkins:before,
+.fontawesome-icon-brands-joget:before,
+.fontawesome-icon-brands-joomla:before,
+.fontawesome-icon-brands-js:before,
+.fontawesome-icon-brands-js-square:before,
+.fontawesome-icon-brands-jsfiddle:before,
+.fontawesome-icon-brands-keycdn:before,
+.fontawesome-icon-brands-kickstarter:before,
+.fontawesome-icon-brands-kickstarter-k:before,
+.fontawesome-icon-brands-korvue:before,
+.fontawesome-icon-brands-laravel:before,
+.fontawesome-icon-brands-lastfm:before,
+.fontawesome-icon-brands-lastfm-square:before,
+.fontawesome-icon-brands-leanpub:before,
+.fontawesome-icon-brands-less:before,
+.fontawesome-icon-brands-line:before,
+.fontawesome-icon-brands-linkedin:before,
+.fontawesome-icon-brands-linkedin-in:before,
+.fontawesome-icon-brands-linode:before,
+.fontawesome-icon-brands-linux:before,
+.fontawesome-icon-brands-lyft:before,
+.fontawesome-icon-brands-magento:before,
+.fontawesome-icon-brands-maxcdn:before,
+.fontawesome-icon-brands-medapps:before,
+.fontawesome-icon-brands-medium:before,
+.fontawesome-icon-brands-medium-m:before,
+.fontawesome-icon-brands-medrt:before,
+.fontawesome-icon-brands-meetup:before,
+.fontawesome-icon-brands-microsoft:before,
+.fontawesome-icon-brands-mix:before,
+.fontawesome-icon-brands-mixcloud:before,
+.fontawesome-icon-brands-mizuni:before,
+.fontawesome-icon-brands-modx:before,
+.fontawesome-icon-brands-monero:before,
+.fontawesome-icon-brands-napster:before,
+.fontawesome-icon-brands-nintendo-switch:before,
+.fontawesome-icon-brands-node:before,
+.fontawesome-icon-brands-node-js:before,
+.fontawesome-icon-brands-npm:before,
+.fontawesome-icon-brands-ns8:before,
+.fontawesome-icon-brands-nutritionix:before,
+.fontawesome-icon-brands-odnoklassniki:before,
+.fontawesome-icon-brands-odnoklassniki-square:before,
+.fontawesome-icon-brands-opencart:before,
+.fontawesome-icon-brands-openid:before,
+.fontawesome-icon-brands-opera:before,
+.fontawesome-icon-brands-optin-monster:before,
+.fontawesome-icon-brands-osi:before,
+.fontawesome-icon-brands-page4:before,
+.fontawesome-icon-brands-pagelines:before,
+.fontawesome-icon-brands-palfed:before,
+.fontawesome-icon-brands-patreon:before,
+.fontawesome-icon-brands-paypal:before,
+.fontawesome-icon-brands-periscope:before,
+.fontawesome-icon-brands-phabricator:before,
+.fontawesome-icon-brands-phoenix-framework:before,
+.fontawesome-icon-brands-php:before,
+.fontawesome-icon-brands-pied-piper:before,
+.fontawesome-icon-brands-pied-piper-alt:before,
+.fontawesome-icon-brands-pied-piper-pp:before,
+.fontawesome-icon-brands-pinterest:before,
+.fontawesome-icon-brands-pinterest-p:before,
+.fontawesome-icon-brands-pinterest-square:before,
+.fontawesome-icon-brands-playstation:before,
+.fontawesome-icon-brands-product-hunt:before,
+.fontawesome-icon-brands-pushed:before,
+.fontawesome-icon-brands-python:before,
+.fontawesome-icon-brands-qq:before,
+.fontawesome-icon-brands-quinscape:before,
+.fontawesome-icon-brands-quora:before,
+.fontawesome-icon-brands-ravelry:before,
+.fontawesome-icon-brands-react:before,
+.fontawesome-icon-brands-rebel:before,
+.fontawesome-icon-brands-red-river:before,
+.fontawesome-icon-brands-reddit:before,
+.fontawesome-icon-brands-reddit-alien:before,
+.fontawesome-icon-brands-reddit-square:before,
+.fontawesome-icon-brands-rendact:before,
+.fontawesome-icon-brands-renren:before,
+.fontawesome-icon-brands-replyd:before,
+.fontawesome-icon-brands-resolving:before,
+.fontawesome-icon-brands-rocketchat:before,
+.fontawesome-icon-brands-rockrms:before,
+.fontawesome-icon-brands-safari:before,
+.fontawesome-icon-brands-sass:before,
+.fontawesome-icon-brands-schlix:before,
+.fontawesome-icon-brands-scribd:before,
+.fontawesome-icon-brands-searchengin:before,
+.fontawesome-icon-brands-sellcast:before,
+.fontawesome-icon-brands-sellsy:before,
+.fontawesome-icon-brands-servicestack:before,
+.fontawesome-icon-brands-shirtsinbulk:before,
+.fontawesome-icon-brands-simplybuilt:before,
+.fontawesome-icon-brands-sistrix:before,
+.fontawesome-icon-brands-skyatlas:before,
+.fontawesome-icon-brands-skype:before,
+.fontawesome-icon-brands-slack:before,
+.fontawesome-icon-brands-slack-hash:before,
+.fontawesome-icon-brands-slideshare:before,
+.fontawesome-icon-brands-snapchat:before,
+.fontawesome-icon-brands-snapchat-ghost:before,
+.fontawesome-icon-brands-snapchat-square:before,
+.fontawesome-icon-brands-soundcloud:before,
+.fontawesome-icon-brands-speakap:before,
+.fontawesome-icon-brands-spotify:before,
+.fontawesome-icon-brands-stack-exchange:before,
+.fontawesome-icon-brands-stack-overflow:before,
+.fontawesome-icon-brands-staylinked:before,
+.fontawesome-icon-brands-steam:before,
+.fontawesome-icon-brands-steam-square:before,
+.fontawesome-icon-brands-steam-symbol:before,
+.fontawesome-icon-brands-sticker-mule:before,
+.fontawesome-icon-brands-strava:before,
+.fontawesome-icon-brands-stripe:before,
+.fontawesome-icon-brands-stripe-s:before,
+.fontawesome-icon-brands-studiovinari:before,
+.fontawesome-icon-brands-stumbleupon:before,
+.fontawesome-icon-brands-stumbleupon-circle:before,
+.fontawesome-icon-brands-superpowers:before,
+.fontawesome-icon-brands-supple:before,
+.fontawesome-icon-brands-telegram:before,
+.fontawesome-icon-brands-telegram-plane:before,
+.fontawesome-icon-brands-tencent-weibo:before,
+.fontawesome-icon-brands-themeisle:before,
+.fontawesome-icon-brands-trello:before,
+.fontawesome-icon-brands-tripadvisor:before,
+.fontawesome-icon-brands-tumblr:before,
+.fontawesome-icon-brands-tumblr-square:before,
+.fontawesome-icon-brands-twitch:before,
+.fontawesome-icon-brands-twitter:before,
+.fontawesome-icon-brands-twitter-square:before,
+.fontawesome-icon-brands-typo3:before,
+.fontawesome-icon-brands-uber:before,
+.fontawesome-icon-brands-uikit:before,
+.fontawesome-icon-brands-uniregistry:before,
+.fontawesome-icon-brands-untappd:before,
+.fontawesome-icon-brands-usb:before,
+.fontawesome-icon-brands-ussunnah:before,
+.fontawesome-icon-brands-vaadin:before,
+.fontawesome-icon-brands-viacoin:before,
+.fontawesome-icon-brands-viadeo:before,
+.fontawesome-icon-brands-viadeo-square:before,
+.fontawesome-icon-brands-viber:before,
+.fontawesome-icon-brands-vimeo:before,
+.fontawesome-icon-brands-vimeo-square:before,
+.fontawesome-icon-brands-vimeo-v:before,
+.fontawesome-icon-brands-vine:before,
+.fontawesome-icon-brands-vk:before,
+.fontawesome-icon-brands-vnv:before,
+.fontawesome-icon-brands-vuejs:before,
+.fontawesome-icon-brands-weibo:before,
+.fontawesome-icon-brands-weixin:before,
+.fontawesome-icon-brands-whatsapp:before,
+.fontawesome-icon-brands-whatsapp-square:before,
+.fontawesome-icon-brands-whmcs:before,
+.fontawesome-icon-brands-wikipedia-w:before,
+.fontawesome-icon-brands-windows:before,
+.fontawesome-icon-brands-wordpress:before,
+.fontawesome-icon-brands-wordpress-simple:before,
+.fontawesome-icon-brands-wpbeginner:before,
+.fontawesome-icon-brands-wpexplorer:before,
+.fontawesome-icon-brands-wpforms:before,
+.fontawesome-icon-brands-xbox:before,
+.fontawesome-icon-brands-xing:before,
+.fontawesome-icon-brands-xing-square:before,
+.fontawesome-icon-brands-y-combinator:before,
+.fontawesome-icon-brands-yahoo:before,
+.fontawesome-icon-brands-yandex:before,
+.fontawesome-icon-brands-yandex-international:before,
+.fontawesome-icon-brands-yelp:before,
+.fontawesome-icon-brands-yoast:before,
+.fontawesome-icon-brands-youtube:before,
+.fontawesome-icon-brands-youtube-square:before,
+.fontawesome-icon-building:before,
+.fontawesome-icon-calendar:before,
+.fontawesome-icon-calendar-alt:before,
+.fontawesome-icon-calendar-check:before,
+.fontawesome-icon-calendar-minus:before,
+.fontawesome-icon-calendar-plus:before,
+.fontawesome-icon-calendar-times:before,
+.fontawesome-icon-caret-square-down:before,
+.fontawesome-icon-caret-square-left:before,
+.fontawesome-icon-caret-square-right:before,
+.fontawesome-icon-caret-square-up:before,
+.fontawesome-icon-chart-bar:before,
+.fontawesome-icon-check-circle:before,
+.fontawesome-icon-check-square:before,
+.fontawesome-icon-circle:before,
+.fontawesome-icon-clipboard:before,
+.fontawesome-icon-clock:before,
+.fontawesome-icon-clone:before,
+.fontawesome-icon-closed-captioning:before,
+.fontawesome-icon-comment:before,
+.fontawesome-icon-comment-alt:before,
+.fontawesome-icon-comments:before,
+.fontawesome-icon-compass:before,
+.fontawesome-icon-copy:before,
+.fontawesome-icon-copyright:before,
+.fontawesome-icon-credit-card:before,
+.fontawesome-icon-dot-circle:before,
+.fontawesome-icon-edit:before,
+.fontawesome-icon-envelope:before,
+.fontawesome-icon-envelope-open:before,
+.fontawesome-icon-eye-slash:before,
+.fontawesome-icon-file:before,
+.fontawesome-icon-file-alt:before,
+.fontawesome-icon-file-archive:before,
+.fontawesome-icon-file-audio:before,
+.fontawesome-icon-file-code:before,
+.fontawesome-icon-file-excel:before,
+.fontawesome-icon-file-image:before,
+.fontawesome-icon-file-pdf:before,
+.fontawesome-icon-file-powerpoint:before,
+.fontawesome-icon-file-video:before,
+.fontawesome-icon-file-word:before,
+.fontawesome-icon-flag:before,
+.fontawesome-icon-folder:before,
+.fontawesome-icon-folder-open:before,
+.fontawesome-icon-frown:before,
+.fontawesome-icon-futbol:before,
+.fontawesome-icon-gem:before,
+.fontawesome-icon-hand-lizard:before,
+.fontawesome-icon-hand-paper:before,
+.fontawesome-icon-hand-peace:before,
+.fontawesome-icon-hand-point-down:before,
+.fontawesome-icon-hand-point-left:before,
+.fontawesome-icon-hand-point-right:before,
+.fontawesome-icon-hand-point-up:before,
+.fontawesome-icon-hand-pointer:before,
+.fontawesome-icon-hand-rock:before,
+.fontawesome-icon-hand-scissors:before,
+.fontawesome-icon-hand-spock:before,
+.fontawesome-icon-handshake:before,
+.fontawesome-icon-hdd:before,
+.fontawesome-icon-heart:before,
+.fontawesome-icon-hospital:before,
+.fontawesome-icon-hourglass:before,
+.fontawesome-icon-id-badge:before,
+.fontawesome-icon-id-card:before,
+.fontawesome-icon-image:before,
+.fontawesome-icon-images:before,
+.fontawesome-icon-keyboard:before,
+.fontawesome-icon-lemon:before,
+.fontawesome-icon-life-ring:before,
+.fontawesome-icon-lightbulb:before,
+.fontawesome-icon-list-alt:before,
+.fontawesome-icon-map:before,
+.fontawesome-icon-meh:before,
+.fontawesome-icon-minus-square:before,
+.fontawesome-icon-money-bill-alt:before,
+.fontawesome-icon-moon:before,
+.fontawesome-icon-newspaper:before,
+.fontawesome-icon-object-group:before,
+.fontawesome-icon-object-ungroup:before,
+.fontawesome-icon-paper-plane:before,
+.fontawesome-icon-pause-circle:before,
+.fontawesome-icon-play-circle:before,
+.fontawesome-icon-plus-square:before,
+.fontawesome-icon-question-circle:before,
+.fontawesome-icon-registered:before,
+.fontawesome-icon-save:before,
+.fontawesome-icon-share-square:before,
+.fontawesome-icon-smile:before,
+.fontawesome-icon-snowflake:before,
+.fontawesome-icon-solid-address-book:before,
+.fontawesome-icon-solid-address-card:before,
+.fontawesome-icon-solid-adjust:before,
+.fontawesome-icon-solid-align-center:before,
+.fontawesome-icon-solid-align-justify:before,
+.fontawesome-icon-solid-align-left:before,
+.fontawesome-icon-solid-align-right:before,
+.fontawesome-icon-solid-ambulance:before,
+.fontawesome-icon-solid-american-sign-language-interpreting:before,
+.fontawesome-icon-solid-anchor:before,
+.fontawesome-icon-solid-angle-double-down:before,
+.fontawesome-icon-solid-angle-double-left:before,
+.fontawesome-icon-solid-angle-double-right:before,
+.fontawesome-icon-solid-angle-double-up:before,
+.fontawesome-icon-solid-angle-down:before,
+.fontawesome-icon-solid-angle-left:before,
+.fontawesome-icon-solid-angle-right:before,
+.fontawesome-icon-solid-angle-up:before,
+.fontawesome-icon-solid-archive:before,
+.fontawesome-icon-solid-arrow-alt-circle-down:before,
+.fontawesome-icon-solid-arrow-alt-circle-left:before,
+.fontawesome-icon-solid-arrow-alt-circle-right:before,
+.fontawesome-icon-solid-arrow-alt-circle-up:before,
+.fontawesome-icon-solid-arrow-circle-down:before,
+.fontawesome-icon-solid-arrow-circle-left:before,
+.fontawesome-icon-solid-arrow-circle-right:before,
+.fontawesome-icon-solid-arrow-circle-up:before,
+.fontawesome-icon-solid-arrow-down:before,
+.fontawesome-icon-solid-arrow-left:before,
+.fontawesome-icon-solid-arrow-right:before,
+.fontawesome-icon-solid-arrow-up:before,
+.fontawesome-icon-solid-arrows-alt:before,
+.fontawesome-icon-solid-arrows-alt-h:before,
+.fontawesome-icon-solid-arrows-alt-v:before,
+.fontawesome-icon-solid-assistive-listening-systems:before,
+.fontawesome-icon-solid-asterisk:before,
+.fontawesome-icon-solid-at:before,
+.fontawesome-icon-solid-audio-description:before,
+.fontawesome-icon-solid-backward:before,
+.fontawesome-icon-solid-balance-scale:before,
+.fontawesome-icon-solid-ban:before,
+.fontawesome-icon-solid-barcode:before,
+.fontawesome-icon-solid-bars:before,
+.fontawesome-icon-solid-baseball-ball:before,
+.fontawesome-icon-solid-basketball-ball:before,
+.fontawesome-icon-solid-bath:before,
+.fontawesome-icon-solid-battery-empty:before,
+.fontawesome-icon-solid-battery-full:before,
+.fontawesome-icon-solid-battery-half:before,
+.fontawesome-icon-solid-battery-quarter:before,
+.fontawesome-icon-solid-battery-three-quarters:before,
+.fontawesome-icon-solid-bed:before,
+.fontawesome-icon-solid-beer:before,
+.fontawesome-icon-solid-bell:before,
+.fontawesome-icon-solid-bell-slash:before,
+.fontawesome-icon-solid-bicycle:before,
+.fontawesome-icon-solid-binoculars:before,
+.fontawesome-icon-solid-birthday-cake:before,
+.fontawesome-icon-solid-blind:before,
+.fontawesome-icon-solid-bold:before,
+.fontawesome-icon-solid-bolt:before,
+.fontawesome-icon-solid-bomb:before,
+.fontawesome-icon-solid-book:before,
+.fontawesome-icon-solid-bookmark:before,
+.fontawesome-icon-solid-bowling-ball:before,
+.fontawesome-icon-solid-braille:before,
+.fontawesome-icon-solid-briefcase:before,
+.fontawesome-icon-solid-bug:before,
+.fontawesome-icon-solid-building:before,
+.fontawesome-icon-solid-bullhorn:before,
+.fontawesome-icon-solid-bullseye:before,
+.fontawesome-icon-solid-bus:before,
+.fontawesome-icon-solid-calculator:before,
+.fontawesome-icon-solid-calendar:before,
+.fontawesome-icon-solid-calendar-alt:before,
+.fontawesome-icon-solid-calendar-check:before,
+.fontawesome-icon-solid-calendar-minus:before,
+.fontawesome-icon-solid-calendar-plus:before,
+.fontawesome-icon-solid-calendar-times:before,
+.fontawesome-icon-solid-camera:before,
+.fontawesome-icon-solid-camera-retro:before,
+.fontawesome-icon-solid-car:before,
+.fontawesome-icon-solid-caret-down:before,
+.fontawesome-icon-solid-caret-left:before,
+.fontawesome-icon-solid-caret-right:before,
+.fontawesome-icon-solid-caret-square-down:before,
+.fontawesome-icon-solid-caret-square-left:before,
+.fontawesome-icon-solid-caret-square-right:before,
+.fontawesome-icon-solid-caret-square-up:before,
+.fontawesome-icon-solid-caret-up:before,
+.fontawesome-icon-solid-cart-arrow-down:before,
+.fontawesome-icon-solid-cart-plus:before,
+.fontawesome-icon-solid-certificate:before,
+.fontawesome-icon-solid-chart-area:before,
+.fontawesome-icon-solid-chart-bar:before,
+.fontawesome-icon-solid-chart-line:before,
+.fontawesome-icon-solid-chart-pie:before,
+.fontawesome-icon-solid-check:before,
+.fontawesome-icon-solid-check-circle:before,
+.fontawesome-icon-solid-check-square:before,
+.fontawesome-icon-solid-chess:before,
+.fontawesome-icon-solid-chess-bishop:before,
+.fontawesome-icon-solid-chess-board:before,
+.fontawesome-icon-solid-chess-king:before,
+.fontawesome-icon-solid-chess-knight:before,
+.fontawesome-icon-solid-chess-pawn:before,
+.fontawesome-icon-solid-chess-queen:before,
+.fontawesome-icon-solid-chess-rook:before,
+.fontawesome-icon-solid-chevron-circle-down:before,
+.fontawesome-icon-solid-chevron-circle-left:before,
+.fontawesome-icon-solid-chevron-circle-right:before,
+.fontawesome-icon-solid-chevron-circle-up:before,
+.fontawesome-icon-solid-chevron-down:before,
+.fontawesome-icon-solid-chevron-left:before,
+.fontawesome-icon-solid-chevron-right:before,
+.fontawesome-icon-solid-chevron-up:before,
+.fontawesome-icon-solid-child:before,
+.fontawesome-icon-solid-circle:before,
+.fontawesome-icon-solid-circle-notch:before,
+.fontawesome-icon-solid-clipboard:before,
+.fontawesome-icon-solid-clock:before,
+.fontawesome-icon-solid-clone:before,
+.fontawesome-icon-solid-closed-captioning:before,
+.fontawesome-icon-solid-cloud:before,
+.fontawesome-icon-solid-cloud-download-alt:before,
+.fontawesome-icon-solid-cloud-upload-alt:before,
+.fontawesome-icon-solid-code:before,
+.fontawesome-icon-solid-code-branch:before,
+.fontawesome-icon-solid-coffee:before,
+.fontawesome-icon-solid-cog:before,
+.fontawesome-icon-solid-cogs:before,
+.fontawesome-icon-solid-columns:before,
+.fontawesome-icon-solid-comment:before,
+.fontawesome-icon-solid-comment-alt:before,
+.fontawesome-icon-solid-comments:before,
+.fontawesome-icon-solid-compass:before,
+.fontawesome-icon-solid-compress:before,
+.fontawesome-icon-solid-copy:before,
+.fontawesome-icon-solid-copyright:before,
+.fontawesome-icon-solid-credit-card:before,
+.fontawesome-icon-solid-crop:before,
+.fontawesome-icon-solid-crosshairs:before,
+.fontawesome-icon-solid-cube:before,
+.fontawesome-icon-solid-cubes:before,
+.fontawesome-icon-solid-cut:before,
+.fontawesome-icon-solid-database:before,
+.fontawesome-icon-solid-deaf:before,
+.fontawesome-icon-solid-desktop:before,
+.fontawesome-icon-solid-dollar-sign:before,
+.fontawesome-icon-solid-dot-circle:before,
+.fontawesome-icon-solid-download:before,
+.fontawesome-icon-solid-edit:before,
+.fontawesome-icon-solid-eject:before,
+.fontawesome-icon-solid-ellipsis-h:before,
+.fontawesome-icon-solid-ellipsis-v:before,
+.fontawesome-icon-solid-envelope:before,
+.fontawesome-icon-solid-envelope-open:before,
+.fontawesome-icon-solid-envelope-square:before,
+.fontawesome-icon-solid-eraser:before,
+.fontawesome-icon-solid-euro-sign:before,
+.fontawesome-icon-solid-exchange-alt:before,
+.fontawesome-icon-solid-exclamation:before,
+.fontawesome-icon-solid-exclamation-circle:before,
+.fontawesome-icon-solid-exclamation-triangle:before,
+.fontawesome-icon-solid-expand:before,
+.fontawesome-icon-solid-expand-arrows-alt:before,
+.fontawesome-icon-solid-external-link-alt:before,
+.fontawesome-icon-solid-external-link-square-alt:before,
+.fontawesome-icon-solid-eye:before,
+.fontawesome-icon-solid-eye-dropper:before,
+.fontawesome-icon-solid-eye-slash:before,
+.fontawesome-icon-solid-fast-backward:before,
+.fontawesome-icon-solid-fast-forward:before,
+.fontawesome-icon-solid-fax:before,
+.fontawesome-icon-solid-female:before,
+.fontawesome-icon-solid-fighter-jet:before,
+.fontawesome-icon-solid-file:before,
+.fontawesome-icon-solid-file-alt:before,
+.fontawesome-icon-solid-file-archive:before,
+.fontawesome-icon-solid-file-audio:before,
+.fontawesome-icon-solid-file-code:before,
+.fontawesome-icon-solid-file-excel:before,
+.fontawesome-icon-solid-file-image:before,
+.fontawesome-icon-solid-file-pdf:before,
+.fontawesome-icon-solid-file-powerpoint:before,
+.fontawesome-icon-solid-file-video:before,
+.fontawesome-icon-solid-file-word:before,
+.fontawesome-icon-solid-film:before,
+.fontawesome-icon-solid-filter:before,
+.fontawesome-icon-solid-fire:before,
+.fontawesome-icon-solid-fire-extinguisher:before,
+.fontawesome-icon-solid-flag:before,
+.fontawesome-icon-solid-flag-checkered:before,
+.fontawesome-icon-solid-flask:before,
+.fontawesome-icon-solid-folder:before,
+.fontawesome-icon-solid-folder-open:before,
+.fontawesome-icon-solid-font:before,
+.fontawesome-icon-solid-football-ball:before,
+.fontawesome-icon-solid-forward:before,
+.fontawesome-icon-solid-frown:before,
+.fontawesome-icon-solid-futbol:before,
+.fontawesome-icon-solid-gamepad:before,
+.fontawesome-icon-solid-gavel:before,
+.fontawesome-icon-solid-gem:before,
+.fontawesome-icon-solid-genderless:before,
+.fontawesome-icon-solid-gift:before,
+.fontawesome-icon-solid-glass-martini:before,
+.fontawesome-icon-solid-globe:before,
+.fontawesome-icon-solid-golf-ball:before,
+.fontawesome-icon-solid-graduation-cap:before,
+.fontawesome-icon-solid-h-square:before,
+.fontawesome-icon-solid-hand-lizard:before,
+.fontawesome-icon-solid-hand-paper:before,
+.fontawesome-icon-solid-hand-peace:before,
+.fontawesome-icon-solid-hand-point-down:before,
+.fontawesome-icon-solid-hand-point-left:before,
+.fontawesome-icon-solid-hand-point-right:before,
+.fontawesome-icon-solid-hand-point-up:before,
+.fontawesome-icon-solid-hand-pointer:before,
+.fontawesome-icon-solid-hand-rock:before,
+.fontawesome-icon-solid-hand-scissors:before,
+.fontawesome-icon-solid-hand-spock:before,
+.fontawesome-icon-solid-handshake:before,
+.fontawesome-icon-solid-hashtag:before,
+.fontawesome-icon-solid-hdd:before,
+.fontawesome-icon-solid-heading:before,
+.fontawesome-icon-solid-headphones:before,
+.fontawesome-icon-solid-heart:before,
+.fontawesome-icon-solid-heartbeat:before,
+.fontawesome-icon-solid-history:before,
+.fontawesome-icon-solid-hockey-puck:before,
+.fontawesome-icon-solid-home:before,
+.fontawesome-icon-solid-hospital:before,
+.fontawesome-icon-solid-hourglass:before,
+.fontawesome-icon-solid-hourglass-end:before,
+.fontawesome-icon-solid-hourglass-half:before,
+.fontawesome-icon-solid-hourglass-start:before,
+.fontawesome-icon-solid-i-cursor:before,
+.fontawesome-icon-solid-id-badge:before,
+.fontawesome-icon-solid-id-card:before,
+.fontawesome-icon-solid-image:before,
+.fontawesome-icon-solid-images:before,
+.fontawesome-icon-solid-inbox:before,
+.fontawesome-icon-solid-indent:before,
+.fontawesome-icon-solid-industry:before,
+.fontawesome-icon-solid-info:before,
+.fontawesome-icon-solid-info-circle:before,
+.fontawesome-icon-solid-italic:before,
+.fontawesome-icon-solid-key:before,
+.fontawesome-icon-solid-keyboard:before,
+.fontawesome-icon-solid-language:before,
+.fontawesome-icon-solid-laptop:before,
+.fontawesome-icon-solid-leaf:before,
+.fontawesome-icon-solid-lemon:before,
+.fontawesome-icon-solid-level-down-alt:before,
+.fontawesome-icon-solid-level-up-alt:before,
+.fontawesome-icon-solid-life-ring:before,
+.fontawesome-icon-solid-lightbulb:before,
+.fontawesome-icon-solid-link:before,
+.fontawesome-icon-solid-lira-sign:before,
+.fontawesome-icon-solid-list:before,
+.fontawesome-icon-solid-list-alt:before,
+.fontawesome-icon-solid-list-ol:before,
+.fontawesome-icon-solid-list-ul:before,
+.fontawesome-icon-solid-location-arrow:before,
+.fontawesome-icon-solid-lock:before,
+.fontawesome-icon-solid-lock-open:before,
+.fontawesome-icon-solid-long-arrow-alt-down:before,
+.fontawesome-icon-solid-long-arrow-alt-left:before,
+.fontawesome-icon-solid-long-arrow-alt-right:before,
+.fontawesome-icon-solid-long-arrow-alt-up:before,
+.fontawesome-icon-solid-low-vision:before,
+.fontawesome-icon-solid-magic:before,
+.fontawesome-icon-solid-magnet:before,
+.fontawesome-icon-solid-male:before,
+.fontawesome-icon-solid-map:before,
+.fontawesome-icon-solid-map-marker:before,
+.fontawesome-icon-solid-map-marker-alt:before,
+.fontawesome-icon-solid-map-pin:before,
+.fontawesome-icon-solid-map-signs:before,
+.fontawesome-icon-solid-mars:before,
+.fontawesome-icon-solid-mars-double:before,
+.fontawesome-icon-solid-mars-stroke:before,
+.fontawesome-icon-solid-mars-stroke-h:before,
+.fontawesome-icon-solid-mars-stroke-v:before,
+.fontawesome-icon-solid-medkit:before,
+.fontawesome-icon-solid-meh:before,
+.fontawesome-icon-solid-mercury:before,
+.fontawesome-icon-solid-microchip:before,
+.fontawesome-icon-solid-microphone:before,
+.fontawesome-icon-solid-microphone-slash:before,
+.fontawesome-icon-solid-minus:before,
+.fontawesome-icon-solid-minus-circle:before,
+.fontawesome-icon-solid-minus-square:before,
+.fontawesome-icon-solid-mobile:before,
+.fontawesome-icon-solid-mobile-alt:before,
+.fontawesome-icon-solid-money-bill-alt:before,
+.fontawesome-icon-solid-moon:before,
+.fontawesome-icon-solid-motorcycle:before,
+.fontawesome-icon-solid-mouse-pointer:before,
+.fontawesome-icon-solid-music:before,
+.fontawesome-icon-solid-neuter:before,
+.fontawesome-icon-solid-newspaper:before,
+.fontawesome-icon-solid-object-group:before,
+.fontawesome-icon-solid-object-ungroup:before,
+.fontawesome-icon-solid-outdent:before,
+.fontawesome-icon-solid-paint-brush:before,
+.fontawesome-icon-solid-paper-plane:before,
+.fontawesome-icon-solid-paperclip:before,
+.fontawesome-icon-solid-paragraph:before,
+.fontawesome-icon-solid-paste:before,
+.fontawesome-icon-solid-pause:before,
+.fontawesome-icon-solid-pause-circle:before,
+.fontawesome-icon-solid-paw:before,
+.fontawesome-icon-solid-pen-square:before,
+.fontawesome-icon-solid-pencil-alt:before,
+.fontawesome-icon-solid-percent:before,
+.fontawesome-icon-solid-phone:before,
+.fontawesome-icon-solid-phone-square:before,
+.fontawesome-icon-solid-phone-volume:before,
+.fontawesome-icon-solid-plane:before,
+.fontawesome-icon-solid-play:before,
+.fontawesome-icon-solid-play-circle:before,
+.fontawesome-icon-solid-plug:before,
+.fontawesome-icon-solid-plus:before,
+.fontawesome-icon-solid-plus-circle:before,
+.fontawesome-icon-solid-plus-square:before,
+.fontawesome-icon-solid-podcast:before,
+.fontawesome-icon-solid-pound-sign:before,
+.fontawesome-icon-solid-power-off:before,
+.fontawesome-icon-solid-print:before,
+.fontawesome-icon-solid-puzzle-piece:before,
+.fontawesome-icon-solid-qrcode:before,
+.fontawesome-icon-solid-question:before,
+.fontawesome-icon-solid-question-circle:before,
+.fontawesome-icon-solid-quidditch:before,
+.fontawesome-icon-solid-quote-left:before,
+.fontawesome-icon-solid-quote-right:before,
+.fontawesome-icon-solid-random:before,
+.fontawesome-icon-solid-recycle:before,
+.fontawesome-icon-solid-redo:before,
+.fontawesome-icon-solid-redo-alt:before,
+.fontawesome-icon-solid-registered:before,
+.fontawesome-icon-solid-reply:before,
+.fontawesome-icon-solid-reply-all:before,
+.fontawesome-icon-solid-retweet:before,
+.fontawesome-icon-solid-road:before,
+.fontawesome-icon-solid-rocket:before,
+.fontawesome-icon-solid-rss:before,
+.fontawesome-icon-solid-rss-square:before,
+.fontawesome-icon-solid-ruble-sign:before,
+.fontawesome-icon-solid-rupee-sign:before,
+.fontawesome-icon-solid-save:before,
+.fontawesome-icon-solid-search:before,
+.fontawesome-icon-solid-search-minus:before,
+.fontawesome-icon-solid-search-plus:before,
+.fontawesome-icon-solid-server:before,
+.fontawesome-icon-solid-share:before,
+.fontawesome-icon-solid-share-alt:before,
+.fontawesome-icon-solid-share-alt-square:before,
+.fontawesome-icon-solid-share-square:before,
+.fontawesome-icon-solid-shekel-sign:before,
+.fontawesome-icon-solid-shield-alt:before,
+.fontawesome-icon-solid-ship:before,
+.fontawesome-icon-solid-shopping-bag:before,
+.fontawesome-icon-solid-shopping-basket:before,
+.fontawesome-icon-solid-shopping-cart:before,
+.fontawesome-icon-solid-shower:before,
+.fontawesome-icon-solid-sign-in-alt:before,
+.fontawesome-icon-solid-sign-language:before,
+.fontawesome-icon-solid-sign-out-alt:before,
+.fontawesome-icon-solid-signal:before,
+.fontawesome-icon-solid-sitemap:before,
+.fontawesome-icon-solid-sliders-h:before,
+.fontawesome-icon-solid-smile:before,
+.fontawesome-icon-solid-snowflake:before,
+.fontawesome-icon-solid-sort:before,
+.fontawesome-icon-solid-sort-alpha-down:before,
+.fontawesome-icon-solid-sort-alpha-up:before,
+.fontawesome-icon-solid-sort-amount-down:before,
+.fontawesome-icon-solid-sort-amount-up:before,
+.fontawesome-icon-solid-sort-down:before,
+.fontawesome-icon-solid-sort-numeric-down:before,
+.fontawesome-icon-solid-sort-numeric-up:before,
+.fontawesome-icon-solid-sort-up:before,
+.fontawesome-icon-solid-space-shuttle:before,
+.fontawesome-icon-solid-spinner:before,
+.fontawesome-icon-solid-square:before,
+.fontawesome-icon-solid-square-full:before,
+.fontawesome-icon-solid-star:before,
+.fontawesome-icon-solid-star-half:before,
+.fontawesome-icon-solid-step-backward:before,
+.fontawesome-icon-solid-step-forward:before,
+.fontawesome-icon-solid-stethoscope:before,
+.fontawesome-icon-solid-sticky-note:before,
+.fontawesome-icon-solid-stop:before,
+.fontawesome-icon-solid-stop-circle:before,
+.fontawesome-icon-solid-stopwatch:before,
+.fontawesome-icon-solid-street-view:before,
+.fontawesome-icon-solid-strikethrough:before,
+.fontawesome-icon-solid-subscript:before,
+.fontawesome-icon-solid-subway:before,
+.fontawesome-icon-solid-suitcase:before,
+.fontawesome-icon-solid-sun:before,
+.fontawesome-icon-solid-superscript:before,
+.fontawesome-icon-solid-sync:before,
+.fontawesome-icon-solid-sync-alt:before,
+.fontawesome-icon-solid-table:before,
+.fontawesome-icon-solid-table-tennis:before,
+.fontawesome-icon-solid-tablet:before,
+.fontawesome-icon-solid-tablet-alt:before,
+.fontawesome-icon-solid-tachometer-alt:before,
+.fontawesome-icon-solid-tag:before,
+.fontawesome-icon-solid-tags:before,
+.fontawesome-icon-solid-tasks:before,
+.fontawesome-icon-solid-taxi:before,
+.fontawesome-icon-solid-terminal:before,
+.fontawesome-icon-solid-text-height:before,
+.fontawesome-icon-solid-text-width:before,
+.fontawesome-icon-solid-th:before,
+.fontawesome-icon-solid-th-large:before,
+.fontawesome-icon-solid-th-list:before,
+.fontawesome-icon-solid-thermometer-empty:before,
+.fontawesome-icon-solid-thermometer-full:before,
+.fontawesome-icon-solid-thermometer-half:before,
+.fontawesome-icon-solid-thermometer-quarter:before,
+.fontawesome-icon-solid-thermometer-three-quarters:before,
+.fontawesome-icon-solid-thumbs-down:before,
+.fontawesome-icon-solid-thumbs-up:before,
+.fontawesome-icon-solid-thumbtack:before,
+.fontawesome-icon-solid-ticket-alt:before,
+.fontawesome-icon-solid-times:before,
+.fontawesome-icon-solid-times-circle:before,
+.fontawesome-icon-solid-tint:before,
+.fontawesome-icon-solid-toggle-off:before,
+.fontawesome-icon-solid-toggle-on:before,
+.fontawesome-icon-solid-trademark:before,
+.fontawesome-icon-solid-train:before,
+.fontawesome-icon-solid-transgender:before,
+.fontawesome-icon-solid-transgender-alt:before,
+.fontawesome-icon-solid-trash:before,
+.fontawesome-icon-solid-trash-alt:before,
+.fontawesome-icon-solid-tree:before,
+.fontawesome-icon-solid-trophy:before,
+.fontawesome-icon-solid-truck:before,
+.fontawesome-icon-solid-tty:before,
+.fontawesome-icon-solid-tv:before,
+.fontawesome-icon-solid-umbrella:before,
+.fontawesome-icon-solid-underline:before,
+.fontawesome-icon-solid-undo:before,
+.fontawesome-icon-solid-undo-alt:before,
+.fontawesome-icon-solid-universal-access:before,
+.fontawesome-icon-solid-university:before,
+.fontawesome-icon-solid-unlink:before,
+.fontawesome-icon-solid-unlock:before,
+.fontawesome-icon-solid-unlock-alt:before,
+.fontawesome-icon-solid-upload:before,
+.fontawesome-icon-solid-user:before,
+.fontawesome-icon-solid-user-circle:before,
+.fontawesome-icon-solid-user-md:before,
+.fontawesome-icon-solid-user-plus:before,
+.fontawesome-icon-solid-user-secret:before,
+.fontawesome-icon-solid-user-times:before,
+.fontawesome-icon-solid-users:before,
+.fontawesome-icon-solid-utensil-spoon:before,
+.fontawesome-icon-solid-utensils:before,
+.fontawesome-icon-solid-venus:before,
+.fontawesome-icon-solid-venus-double:before,
+.fontawesome-icon-solid-venus-mars:before,
+.fontawesome-icon-solid-video:before,
+.fontawesome-icon-solid-volleyball-ball:before,
+.fontawesome-icon-solid-volume-down:before,
+.fontawesome-icon-solid-volume-off:before,
+.fontawesome-icon-solid-volume-up:before,
+.fontawesome-icon-solid-wheelchair:before,
+.fontawesome-icon-solid-wifi:before,
+.fontawesome-icon-solid-window-close:before,
+.fontawesome-icon-solid-window-maximize:before,
+.fontawesome-icon-solid-window-minimize:before,
+.fontawesome-icon-solid-window-restore:before,
+.fontawesome-icon-solid-won-sign:before,
+.fontawesome-icon-solid-wrench:before,
+.fontawesome-icon-solid-yen-sign:before,
+.fontawesome-icon-square:before,
+.fontawesome-icon-star:before,
+.fontawesome-icon-star-half:before,
+.fontawesome-icon-sticky-note:before,
+.fontawesome-icon-stop-circle:before,
+.fontawesome-icon-sun:before,
+.fontawesome-icon-thumbs-down:before,
+.fontawesome-icon-thumbs-up:before,
+.fontawesome-icon-times-circle:before,
+.fontawesome-icon-trash-alt:before,
+.fontawesome-icon-user:before,
+.fontawesome-icon-user-circle:before,
+.fontawesome-icon-window-close:before,
+.fontawesome-icon-window-maximize:before,
+.fontawesome-icon-window-minimize:before,
+.fontawesome-icon-window-restore:before {
+  display: inline-block;
+  font-family: "fontawesome";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.fontawesome-icon-address-book:before { content: "\f100"; }
+.fontawesome-icon-address-card:before { content: "\f101"; }
+.fontawesome-icon-arrow-alt-circle-down:before { content: "\f102"; }
+.fontawesome-icon-arrow-alt-circle-left:before { content: "\f103"; }
+.fontawesome-icon-arrow-alt-circle-right:before { content: "\f104"; }
+.fontawesome-icon-arrow-alt-circle-up:before { content: "\f105"; }
+.fontawesome-icon-bell:before { content: "\f106"; }
+.fontawesome-icon-bell-slash:before { content: "\f107"; }
+.fontawesome-icon-bookmark:before { content: "\f108"; }
+.fontawesome-icon-brands-500px:before { content: "\f109"; }
+.fontawesome-icon-brands-accessible-icon:before { content: "\f10a"; }
+.fontawesome-icon-brands-accusoft:before { content: "\f10b"; }
+.fontawesome-icon-brands-adn:before { content: "\f10c"; }
+.fontawesome-icon-brands-adversal:before { content: "\f10d"; }
+.fontawesome-icon-brands-affiliatetheme:before { content: "\f10e"; }
+.fontawesome-icon-brands-algolia:before { content: "\f10f"; }
+.fontawesome-icon-brands-amazon:before { content: "\f110"; }
+.fontawesome-icon-brands-amazon-pay:before { content: "\f111"; }
+.fontawesome-icon-brands-amilia:before { content: "\f112"; }
+.fontawesome-icon-brands-android:before { content: "\f113"; }
+.fontawesome-icon-brands-angellist:before { content: "\f114"; }
+.fontawesome-icon-brands-angrycreative:before { content: "\f115"; }
+.fontawesome-icon-brands-angular:before { content: "\f116"; }
+.fontawesome-icon-brands-app-store:before { content: "\f117"; }
+.fontawesome-icon-brands-app-store-ios:before { content: "\f118"; }
+.fontawesome-icon-brands-apper:before { content: "\f119"; }
+.fontawesome-icon-brands-apple:before { content: "\f11a"; }
+.fontawesome-icon-brands-apple-pay:before { content: "\f11b"; }
+.fontawesome-icon-brands-asymmetrik:before { content: "\f11c"; }
+.fontawesome-icon-brands-audible:before { content: "\f11d"; }
+.fontawesome-icon-brands-autoprefixer:before { content: "\f11e"; }
+.fontawesome-icon-brands-avianex:before { content: "\f11f"; }
+.fontawesome-icon-brands-aviato:before { content: "\f120"; }
+.fontawesome-icon-brands-aws:before { content: "\f121"; }
+.fontawesome-icon-brands-bandcamp:before { content: "\f122"; }
+.fontawesome-icon-brands-behance:before { content: "\f123"; }
+.fontawesome-icon-brands-behance-square:before { content: "\f124"; }
+.fontawesome-icon-brands-bimobject:before { content: "\f125"; }
+.fontawesome-icon-brands-bitbucket:before { content: "\f126"; }
+.fontawesome-icon-brands-bitcoin:before { content: "\f127"; }
+.fontawesome-icon-brands-bity:before { content: "\f128"; }
+.fontawesome-icon-brands-black-tie:before { content: "\f129"; }
+.fontawesome-icon-brands-blackberry:before { content: "\f12a"; }
+.fontawesome-icon-brands-blogger:before { content: "\f12b"; }
+.fontawesome-icon-brands-blogger-b:before { content: "\f12c"; }
+.fontawesome-icon-brands-bluetooth:before { content: "\f12d"; }
+.fontawesome-icon-brands-bluetooth-b:before { content: "\f12e"; }
+.fontawesome-icon-brands-btc:before { content: "\f12f"; }
+.fontawesome-icon-brands-buromobelexperte:before { content: "\f130"; }
+.fontawesome-icon-brands-buysellads:before { content: "\f131"; }
+.fontawesome-icon-brands-cc-amazon-pay:before { content: "\f132"; }
+.fontawesome-icon-brands-cc-amex:before { content: "\f133"; }
+.fontawesome-icon-brands-cc-apple-pay:before { content: "\f134"; }
+.fontawesome-icon-brands-cc-diners-club:before { content: "\f135"; }
+.fontawesome-icon-brands-cc-discover:before { content: "\f136"; }
+.fontawesome-icon-brands-cc-jcb:before { content: "\f137"; }
+.fontawesome-icon-brands-cc-mastercard:before { content: "\f138"; }
+.fontawesome-icon-brands-cc-paypal:before { content: "\f139"; }
+.fontawesome-icon-brands-cc-stripe:before { content: "\f13a"; }
+.fontawesome-icon-brands-cc-visa:before { content: "\f13b"; }
+.fontawesome-icon-brands-centercode:before { content: "\f13c"; }
+.fontawesome-icon-brands-chrome:before { content: "\f13d"; }
+.fontawesome-icon-brands-cloudscale:before { content: "\f13e"; }
+.fontawesome-icon-brands-cloudsmith:before { content: "\f13f"; }
+.fontawesome-icon-brands-cloudversify:before { content: "\f140"; }
+.fontawesome-icon-brands-codepen:before { content: "\f141"; }
+.fontawesome-icon-brands-codiepie:before { content: "\f142"; }
+.fontawesome-icon-brands-connectdevelop:before { content: "\f143"; }
+.fontawesome-icon-brands-contao:before { content: "\f144"; }
+.fontawesome-icon-brands-cpanel:before { content: "\f145"; }
+.fontawesome-icon-brands-creative-commons:before { content: "\f146"; }
+.fontawesome-icon-brands-css3:before { content: "\f147"; }
+.fontawesome-icon-brands-css3-alt:before { content: "\f148"; }
+.fontawesome-icon-brands-cuttlefish:before { content: "\f149"; }
+.fontawesome-icon-brands-d-and-d:before { content: "\f14a"; }
+.fontawesome-icon-brands-dashcube:before { content: "\f14b"; }
+.fontawesome-icon-brands-delicious:before { content: "\f14c"; }
+.fontawesome-icon-brands-deploydog:before { content: "\f14d"; }
+.fontawesome-icon-brands-deskpro:before { content: "\f14e"; }
+.fontawesome-icon-brands-deviantart:before { content: "\f14f"; }
+.fontawesome-icon-brands-digg:before { content: "\f150"; }
+.fontawesome-icon-brands-digital-ocean:before { content: "\f151"; }
+.fontawesome-icon-brands-discord:before { content: "\f152"; }
+.fontawesome-icon-brands-discourse:before { content: "\f153"; }
+.fontawesome-icon-brands-dochub:before { content: "\f154"; }
+.fontawesome-icon-brands-docker:before { content: "\f155"; }
+.fontawesome-icon-brands-draft2digital:before { content: "\f156"; }
+.fontawesome-icon-brands-dribbble:before { content: "\f157"; }
+.fontawesome-icon-brands-dribbble-square:before { content: "\f158"; }
+.fontawesome-icon-brands-dropbox:before { content: "\f159"; }
+.fontawesome-icon-brands-drupal:before { content: "\f15a"; }
+.fontawesome-icon-brands-dyalog:before { content: "\f15b"; }
+.fontawesome-icon-brands-earlybirds:before { content: "\f15c"; }
+.fontawesome-icon-brands-edge:before { content: "\f15d"; }
+.fontawesome-icon-brands-elementor:before { content: "\f15e"; }
+.fontawesome-icon-brands-ember:before { content: "\f15f"; }
+.fontawesome-icon-brands-empire:before { content: "\f160"; }
+.fontawesome-icon-brands-envira:before { content: "\f161"; }
+.fontawesome-icon-brands-erlang:before { content: "\f162"; }
+.fontawesome-icon-brands-ethereum:before { content: "\f163"; }
+.fontawesome-icon-brands-etsy:before { content: "\f164"; }
+.fontawesome-icon-brands-expeditedssl:before { content: "\f165"; }
+.fontawesome-icon-brands-facebook:before { content: "\f166"; }
+.fontawesome-icon-brands-facebook-f:before { content: "\f167"; }
+.fontawesome-icon-brands-facebook-messenger:before { content: "\f168"; }
+.fontawesome-icon-brands-facebook-square:before { content: "\f169"; }
+.fontawesome-icon-brands-firefox:before { content: "\f16a"; }
+.fontawesome-icon-brands-first-order:before { content: "\f16b"; }
+.fontawesome-icon-brands-firstdraft:before { content: "\f16c"; }
+.fontawesome-icon-brands-flickr:before { content: "\f16d"; }
+.fontawesome-icon-brands-flipboard:before { content: "\f16e"; }
+.fontawesome-icon-brands-fly:before { content: "\f16f"; }
+.fontawesome-icon-brands-font-awesome:before { content: "\f170"; }
+.fontawesome-icon-brands-font-awesome-alt:before { content: "\f171"; }
+.fontawesome-icon-brands-font-awesome-flag:before { content: "\f172"; }
+.fontawesome-icon-brands-fonticons:before { content: "\f173"; }
+.fontawesome-icon-brands-fonticons-fi:before { content: "\f174"; }
+.fontawesome-icon-brands-fort-awesome:before { content: "\f175"; }
+.fontawesome-icon-brands-fort-awesome-alt:before { content: "\f176"; }
+.fontawesome-icon-brands-forumbee:before { content: "\f177"; }
+.fontawesome-icon-brands-foursquare:before { content: "\f178"; }
+.fontawesome-icon-brands-free-code-camp:before { content: "\f179"; }
+.fontawesome-icon-brands-freebsd:before { content: "\f17a"; }
+.fontawesome-icon-brands-get-pocket:before { content: "\f17b"; }
+.fontawesome-icon-brands-gg:before { content: "\f17c"; }
+.fontawesome-icon-brands-gg-circle:before { content: "\f17d"; }
+.fontawesome-icon-brands-git:before { content: "\f17e"; }
+.fontawesome-icon-brands-git-square:before { content: "\f17f"; }
+.fontawesome-icon-brands-github:before { content: "\f180"; }
+.fontawesome-icon-brands-github-alt:before { content: "\f181"; }
+.fontawesome-icon-brands-github-square:before { content: "\f182"; }
+.fontawesome-icon-brands-gitkraken:before { content: "\f183"; }
+.fontawesome-icon-brands-gitlab:before { content: "\f184"; }
+.fontawesome-icon-brands-gitter:before { content: "\f185"; }
+.fontawesome-icon-brands-glide:before { content: "\f186"; }
+.fontawesome-icon-brands-glide-g:before { content: "\f187"; }
+.fontawesome-icon-brands-gofore:before { content: "\f188"; }
+.fontawesome-icon-brands-goodreads:before { content: "\f189"; }
+.fontawesome-icon-brands-goodreads-g:before { content: "\f18a"; }
+.fontawesome-icon-brands-google:before { content: "\f18b"; }
+.fontawesome-icon-brands-google-drive:before { content: "\f18c"; }
+.fontawesome-icon-brands-google-play:before { content: "\f18d"; }
+.fontawesome-icon-brands-google-plus:before { content: "\f18e"; }
+.fontawesome-icon-brands-google-plus-g:before { content: "\f18f"; }
+.fontawesome-icon-brands-google-plus-square:before { content: "\f190"; }
+.fontawesome-icon-brands-google-wallet:before { content: "\f191"; }
+.fontawesome-icon-brands-gratipay:before { content: "\f192"; }
+.fontawesome-icon-brands-grav:before { content: "\f193"; }
+.fontawesome-icon-brands-gripfire:before { content: "\f194"; }
+.fontawesome-icon-brands-grunt:before { content: "\f195"; }
+.fontawesome-icon-brands-gulp:before { content: "\f196"; }
+.fontawesome-icon-brands-hacker-news:before { content: "\f197"; }
+.fontawesome-icon-brands-hacker-news-square:before { content: "\f198"; }
+.fontawesome-icon-brands-hips:before { content: "\f199"; }
+.fontawesome-icon-brands-hire-a-helper:before { content: "\f19a"; }
+.fontawesome-icon-brands-hooli:before { content: "\f19b"; }
+.fontawesome-icon-brands-hotjar:before { content: "\f19c"; }
+.fontawesome-icon-brands-houzz:before { content: "\f19d"; }
+.fontawesome-icon-brands-html5:before { content: "\f19e"; }
+.fontawesome-icon-brands-hubspot:before { content: "\f19f"; }
+.fontawesome-icon-brands-imdb:before { content: "\f1a0"; }
+.fontawesome-icon-brands-instagram:before { content: "\f1a1"; }
+.fontawesome-icon-brands-internet-explorer:before { content: "\f1a2"; }
+.fontawesome-icon-brands-ioxhost:before { content: "\f1a3"; }
+.fontawesome-icon-brands-itunes:before { content: "\f1a4"; }
+.fontawesome-icon-brands-itunes-note:before { content: "\f1a5"; }
+.fontawesome-icon-brands-jenkins:before { content: "\f1a6"; }
+.fontawesome-icon-brands-joget:before { content: "\f1a7"; }
+.fontawesome-icon-brands-joomla:before { content: "\f1a8"; }
+.fontawesome-icon-brands-js:before { content: "\f1a9"; }
+.fontawesome-icon-brands-js-square:before { content: "\f1aa"; }
+.fontawesome-icon-brands-jsfiddle:before { content: "\f1ab"; }
+.fontawesome-icon-brands-keycdn:before { content: "\f1ac"; }
+.fontawesome-icon-brands-kickstarter:before { content: "\f1ad"; }
+.fontawesome-icon-brands-kickstarter-k:before { content: "\f1ae"; }
+.fontawesome-icon-brands-korvue:before { content: "\f1af"; }
+.fontawesome-icon-brands-laravel:before { content: "\f1b0"; }
+.fontawesome-icon-brands-lastfm:before { content: "\f1b1"; }
+.fontawesome-icon-brands-lastfm-square:before { content: "\f1b2"; }
+.fontawesome-icon-brands-leanpub:before { content: "\f1b3"; }
+.fontawesome-icon-brands-less:before { content: "\f1b4"; }
+.fontawesome-icon-brands-line:before { content: "\f1b5"; }
+.fontawesome-icon-brands-linkedin:before { content: "\f1b6"; }
+.fontawesome-icon-brands-linkedin-in:before { content: "\f1b7"; }
+.fontawesome-icon-brands-linode:before { content: "\f1b8"; }
+.fontawesome-icon-brands-linux:before { content: "\f1b9"; }
+.fontawesome-icon-brands-lyft:before { content: "\f1ba"; }
+.fontawesome-icon-brands-magento:before { content: "\f1bb"; }
+.fontawesome-icon-brands-maxcdn:before { content: "\f1bc"; }
+.fontawesome-icon-brands-medapps:before { content: "\f1bd"; }
+.fontawesome-icon-brands-medium:before { content: "\f1be"; }
+.fontawesome-icon-brands-medium-m:before { content: "\f1bf"; }
+.fontawesome-icon-brands-medrt:before { content: "\f1c0"; }
+.fontawesome-icon-brands-meetup:before { content: "\f1c1"; }
+.fontawesome-icon-brands-microsoft:before { content: "\f1c2"; }
+.fontawesome-icon-brands-mix:before { content: "\f1c3"; }
+.fontawesome-icon-brands-mixcloud:before { content: "\f1c4"; }
+.fontawesome-icon-brands-mizuni:before { content: "\f1c5"; }
+.fontawesome-icon-brands-modx:before { content: "\f1c6"; }
+.fontawesome-icon-brands-monero:before { content: "\f1c7"; }
+.fontawesome-icon-brands-napster:before { content: "\f1c8"; }
+.fontawesome-icon-brands-nintendo-switch:before { content: "\f1c9"; }
+.fontawesome-icon-brands-node:before { content: "\f1ca"; }
+.fontawesome-icon-brands-node-js:before { content: "\f1cb"; }
+.fontawesome-icon-brands-npm:before { content: "\f1cc"; }
+.fontawesome-icon-brands-ns8:before { content: "\f1cd"; }
+.fontawesome-icon-brands-nutritionix:before { content: "\f1ce"; }
+.fontawesome-icon-brands-odnoklassniki:before { content: "\f1cf"; }
+.fontawesome-icon-brands-odnoklassniki-square:before { content: "\f1d0"; }
+.fontawesome-icon-brands-opencart:before { content: "\f1d1"; }
+.fontawesome-icon-brands-openid:before { content: "\f1d2"; }
+.fontawesome-icon-brands-opera:before { content: "\f1d3"; }
+.fontawesome-icon-brands-optin-monster:before { content: "\f1d4"; }
+.fontawesome-icon-brands-osi:before { content: "\f1d5"; }
+.fontawesome-icon-brands-page4:before { content: "\f1d6"; }
+.fontawesome-icon-brands-pagelines:before { content: "\f1d7"; }
+.fontawesome-icon-brands-palfed:before { content: "\f1d8"; }
+.fontawesome-icon-brands-patreon:before { content: "\f1d9"; }
+.fontawesome-icon-brands-paypal:before { content: "\f1da"; }
+.fontawesome-icon-brands-periscope:before { content: "\f1db"; }
+.fontawesome-icon-brands-phabricator:before { content: "\f1dc"; }
+.fontawesome-icon-brands-phoenix-framework:before { content: "\f1dd"; }
+.fontawesome-icon-brands-php:before { content: "\f1de"; }
+.fontawesome-icon-brands-pied-piper:before { content: "\f1df"; }
+.fontawesome-icon-brands-pied-piper-alt:before { content: "\f1e0"; }
+.fontawesome-icon-brands-pied-piper-pp:before { content: "\f1e1"; }
+.fontawesome-icon-brands-pinterest:before { content: "\f1e2"; }
+.fontawesome-icon-brands-pinterest-p:before { content: "\f1e3"; }
+.fontawesome-icon-brands-pinterest-square:before { content: "\f1e4"; }
+.fontawesome-icon-brands-playstation:before { content: "\f1e5"; }
+.fontawesome-icon-brands-product-hunt:before { content: "\f1e6"; }
+.fontawesome-icon-brands-pushed:before { content: "\f1e7"; }
+.fontawesome-icon-brands-python:before { content: "\f1e8"; }
+.fontawesome-icon-brands-qq:before { content: "\f1e9"; }
+.fontawesome-icon-brands-quinscape:before { content: "\f1ea"; }
+.fontawesome-icon-brands-quora:before { content: "\f1eb"; }
+.fontawesome-icon-brands-ravelry:before { content: "\f1ec"; }
+.fontawesome-icon-brands-react:before { content: "\f1ed"; }
+.fontawesome-icon-brands-rebel:before { content: "\f1ee"; }
+.fontawesome-icon-brands-red-river:before { content: "\f1ef"; }
+.fontawesome-icon-brands-reddit:before { content: "\f1f0"; }
+.fontawesome-icon-brands-reddit-alien:before { content: "\f1f1"; }
+.fontawesome-icon-brands-reddit-square:before { content: "\f1f2"; }
+.fontawesome-icon-brands-rendact:before { content: "\f1f3"; }
+.fontawesome-icon-brands-renren:before { content: "\f1f4"; }
+.fontawesome-icon-brands-replyd:before { content: "\f1f5"; }
+.fontawesome-icon-brands-resolving:before { content: "\f1f6"; }
+.fontawesome-icon-brands-rocketchat:before { content: "\f1f7"; }
+.fontawesome-icon-brands-rockrms:before { content: "\f1f8"; }
+.fontawesome-icon-brands-safari:before { content: "\f1f9"; }
+.fontawesome-icon-brands-sass:before { content: "\f1fa"; }
+.fontawesome-icon-brands-schlix:before { content: "\f1fb"; }
+.fontawesome-icon-brands-scribd:before { content: "\f1fc"; }
+.fontawesome-icon-brands-searchengin:before { content: "\f1fd"; }
+.fontawesome-icon-brands-sellcast:before { content: "\f1fe"; }
+.fontawesome-icon-brands-sellsy:before { content: "\f1ff"; }
+.fontawesome-icon-brands-servicestack:before { content: "\f200"; }
+.fontawesome-icon-brands-shirtsinbulk:before { content: "\f201"; }
+.fontawesome-icon-brands-simplybuilt:before { content: "\f202"; }
+.fontawesome-icon-brands-sistrix:before { content: "\f203"; }
+.fontawesome-icon-brands-skyatlas:before { content: "\f204"; }
+.fontawesome-icon-brands-skype:before { content: "\f205"; }
+.fontawesome-icon-brands-slack:before { content: "\f206"; }
+.fontawesome-icon-brands-slack-hash:before { content: "\f207"; }
+.fontawesome-icon-brands-slideshare:before { content: "\f208"; }
+.fontawesome-icon-brands-snapchat:before { content: "\f209"; }
+.fontawesome-icon-brands-snapchat-ghost:before { content: "\f20a"; }
+.fontawesome-icon-brands-snapchat-square:before { content: "\f20b"; }
+.fontawesome-icon-brands-soundcloud:before { content: "\f20c"; }
+.fontawesome-icon-brands-speakap:before { content: "\f20d"; }
+.fontawesome-icon-brands-spotify:before { content: "\f20e"; }
+.fontawesome-icon-brands-stack-exchange:before { content: "\f20f"; }
+.fontawesome-icon-brands-stack-overflow:before { content: "\f210"; }
+.fontawesome-icon-brands-staylinked:before { content: "\f211"; }
+.fontawesome-icon-brands-steam:before { content: "\f212"; }
+.fontawesome-icon-brands-steam-square:before { content: "\f213"; }
+.fontawesome-icon-brands-steam-symbol:before { content: "\f214"; }
+.fontawesome-icon-brands-sticker-mule:before { content: "\f215"; }
+.fontawesome-icon-brands-strava:before { content: "\f216"; }
+.fontawesome-icon-brands-stripe:before { content: "\f217"; }
+.fontawesome-icon-brands-stripe-s:before { content: "\f218"; }
+.fontawesome-icon-brands-studiovinari:before { content: "\f219"; }
+.fontawesome-icon-brands-stumbleupon:before { content: "\f21a"; }
+.fontawesome-icon-brands-stumbleupon-circle:before { content: "\f21b"; }
+.fontawesome-icon-brands-superpowers:before { content: "\f21c"; }
+.fontawesome-icon-brands-supple:before { content: "\f21d"; }
+.fontawesome-icon-brands-telegram:before { content: "\f21e"; }
+.fontawesome-icon-brands-telegram-plane:before { content: "\f21f"; }
+.fontawesome-icon-brands-tencent-weibo:before { content: "\f220"; }
+.fontawesome-icon-brands-themeisle:before { content: "\f221"; }
+.fontawesome-icon-brands-trello:before { content: "\f222"; }
+.fontawesome-icon-brands-tripadvisor:before { content: "\f223"; }
+.fontawesome-icon-brands-tumblr:before { content: "\f224"; }
+.fontawesome-icon-brands-tumblr-square:before { content: "\f225"; }
+.fontawesome-icon-brands-twitch:before { content: "\f226"; }
+.fontawesome-icon-brands-twitter:before { content: "\f227"; }
+.fontawesome-icon-brands-twitter-square:before { content: "\f228"; }
+.fontawesome-icon-brands-typo3:before { content: "\f229"; }
+.fontawesome-icon-brands-uber:before { content: "\f22a"; }
+.fontawesome-icon-brands-uikit:before { content: "\f22b"; }
+.fontawesome-icon-brands-uniregistry:before { content: "\f22c"; }
+.fontawesome-icon-brands-untappd:before { content: "\f22d"; }
+.fontawesome-icon-brands-usb:before { content: "\f22e"; }
+.fontawesome-icon-brands-ussunnah:before { content: "\f22f"; }
+.fontawesome-icon-brands-vaadin:before { content: "\f230"; }
+.fontawesome-icon-brands-viacoin:before { content: "\f231"; }
+.fontawesome-icon-brands-viadeo:before { content: "\f232"; }
+.fontawesome-icon-brands-viadeo-square:before { content: "\f233"; }
+.fontawesome-icon-brands-viber:before { content: "\f234"; }
+.fontawesome-icon-brands-vimeo:before { content: "\f235"; }
+.fontawesome-icon-brands-vimeo-square:before { content: "\f236"; }
+.fontawesome-icon-brands-vimeo-v:before { content: "\f237"; }
+.fontawesome-icon-brands-vine:before { content: "\f238"; }
+.fontawesome-icon-brands-vk:before { content: "\f239"; }
+.fontawesome-icon-brands-vnv:before { content: "\f23a"; }
+.fontawesome-icon-brands-vuejs:before { content: "\f23b"; }
+.fontawesome-icon-brands-weibo:before { content: "\f23c"; }
+.fontawesome-icon-brands-weixin:before { content: "\f23d"; }
+.fontawesome-icon-brands-whatsapp:before { content: "\f23e"; }
+.fontawesome-icon-brands-whatsapp-square:before { content: "\f23f"; }
+.fontawesome-icon-brands-whmcs:before { content: "\f240"; }
+.fontawesome-icon-brands-wikipedia-w:before { content: "\f241"; }
+.fontawesome-icon-brands-windows:before { content: "\f242"; }
+.fontawesome-icon-brands-wordpress:before { content: "\f243"; }
+.fontawesome-icon-brands-wordpress-simple:before { content: "\f244"; }
+.fontawesome-icon-brands-wpbeginner:before { content: "\f245"; }
+.fontawesome-icon-brands-wpexplorer:before { content: "\f246"; }
+.fontawesome-icon-brands-wpforms:before { content: "\f247"; }
+.fontawesome-icon-brands-xbox:before { content: "\f248"; }
+.fontawesome-icon-brands-xing:before { content: "\f249"; }
+.fontawesome-icon-brands-xing-square:before { content: "\f24a"; }
+.fontawesome-icon-brands-y-combinator:before { content: "\f24b"; }
+.fontawesome-icon-brands-yahoo:before { content: "\f24c"; }
+.fontawesome-icon-brands-yandex:before { content: "\f24d"; }
+.fontawesome-icon-brands-yandex-international:before { content: "\f24e"; }
+.fontawesome-icon-brands-yelp:before { content: "\f24f"; }
+.fontawesome-icon-brands-yoast:before { content: "\f250"; }
+.fontawesome-icon-brands-youtube:before { content: "\f251"; }
+.fontawesome-icon-brands-youtube-square:before { content: "\f252"; }
+.fontawesome-icon-building:before { content: "\f253"; }
+.fontawesome-icon-calendar:before { content: "\f254"; }
+.fontawesome-icon-calendar-alt:before { content: "\f255"; }
+.fontawesome-icon-calendar-check:before { content: "\f256"; }
+.fontawesome-icon-calendar-minus:before { content: "\f257"; }
+.fontawesome-icon-calendar-plus:before { content: "\f258"; }
+.fontawesome-icon-calendar-times:before { content: "\f259"; }
+.fontawesome-icon-caret-square-down:before { content: "\f25a"; }
+.fontawesome-icon-caret-square-left:before { content: "\f25b"; }
+.fontawesome-icon-caret-square-right:before { content: "\f25c"; }
+.fontawesome-icon-caret-square-up:before { content: "\f25d"; }
+.fontawesome-icon-chart-bar:before { content: "\f25e"; }
+.fontawesome-icon-check-circle:before { content: "\f25f"; }
+.fontawesome-icon-check-square:before { content: "\f260"; }
+.fontawesome-icon-circle:before { content: "\f261"; }
+.fontawesome-icon-clipboard:before { content: "\f262"; }
+.fontawesome-icon-clock:before { content: "\f263"; }
+.fontawesome-icon-clone:before { content: "\f264"; }
+.fontawesome-icon-closed-captioning:before { content: "\f265"; }
+.fontawesome-icon-comment:before { content: "\f266"; }
+.fontawesome-icon-comment-alt:before { content: "\f267"; }
+.fontawesome-icon-comments:before { content: "\f268"; }
+.fontawesome-icon-compass:before { content: "\f269"; }
+.fontawesome-icon-copy:before { content: "\f26a"; }
+.fontawesome-icon-copyright:before { content: "\f26b"; }
+.fontawesome-icon-credit-card:before { content: "\f26c"; }
+.fontawesome-icon-dot-circle:before { content: "\f26d"; }
+.fontawesome-icon-edit:before { content: "\f26e"; }
+.fontawesome-icon-envelope:before { content: "\f26f"; }
+.fontawesome-icon-envelope-open:before { content: "\f270"; }
+.fontawesome-icon-eye-slash:before { content: "\f271"; }
+.fontawesome-icon-file:before { content: "\f272"; }
+.fontawesome-icon-file-alt:before { content: "\f273"; }
+.fontawesome-icon-file-archive:before { content: "\f274"; }
+.fontawesome-icon-file-audio:before { content: "\f275"; }
+.fontawesome-icon-file-code:before { content: "\f276"; }
+.fontawesome-icon-file-excel:before { content: "\f277"; }
+.fontawesome-icon-file-image:before { content: "\f278"; }
+.fontawesome-icon-file-pdf:before { content: "\f279"; }
+.fontawesome-icon-file-powerpoint:before { content: "\f27a"; }
+.fontawesome-icon-file-video:before { content: "\f27b"; }
+.fontawesome-icon-file-word:before { content: "\f27c"; }
+.fontawesome-icon-flag:before { content: "\f27d"; }
+.fontawesome-icon-folder:before { content: "\f27e"; }
+.fontawesome-icon-folder-open:before { content: "\f27f"; }
+.fontawesome-icon-frown:before { content: "\f280"; }
+.fontawesome-icon-futbol:before { content: "\f281"; }
+.fontawesome-icon-gem:before { content: "\f282"; }
+.fontawesome-icon-hand-lizard:before { content: "\f283"; }
+.fontawesome-icon-hand-paper:before { content: "\f284"; }
+.fontawesome-icon-hand-peace:before { content: "\f285"; }
+.fontawesome-icon-hand-point-down:before { content: "\f286"; }
+.fontawesome-icon-hand-point-left:before { content: "\f287"; }
+.fontawesome-icon-hand-point-right:before { content: "\f288"; }
+.fontawesome-icon-hand-point-up:before { content: "\f289"; }
+.fontawesome-icon-hand-pointer:before { content: "\f28a"; }
+.fontawesome-icon-hand-rock:before { content: "\f28b"; }
+.fontawesome-icon-hand-scissors:before { content: "\f28c"; }
+.fontawesome-icon-hand-spock:before { content: "\f28d"; }
+.fontawesome-icon-handshake:before { content: "\f28e"; }
+.fontawesome-icon-hdd:before { content: "\f28f"; }
+.fontawesome-icon-heart:before { content: "\f290"; }
+.fontawesome-icon-hospital:before { content: "\f291"; }
+.fontawesome-icon-hourglass:before { content: "\f292"; }
+.fontawesome-icon-id-badge:before { content: "\f293"; }
+.fontawesome-icon-id-card:before { content: "\f294"; }
+.fontawesome-icon-image:before { content: "\f295"; }
+.fontawesome-icon-images:before { content: "\f296"; }
+.fontawesome-icon-keyboard:before { content: "\f297"; }
+.fontawesome-icon-lemon:before { content: "\f298"; }
+.fontawesome-icon-life-ring:before { content: "\f299"; }
+.fontawesome-icon-lightbulb:before { content: "\f29a"; }
+.fontawesome-icon-list-alt:before { content: "\f29b"; }
+.fontawesome-icon-map:before { content: "\f29c"; }
+.fontawesome-icon-meh:before { content: "\f29d"; }
+.fontawesome-icon-minus-square:before { content: "\f29e"; }
+.fontawesome-icon-money-bill-alt:before { content: "\f29f"; }
+.fontawesome-icon-moon:before { content: "\f2a0"; }
+.fontawesome-icon-newspaper:before { content: "\f2a1"; }
+.fontawesome-icon-object-group:before { content: "\f2a2"; }
+.fontawesome-icon-object-ungroup:before { content: "\f2a3"; }
+.fontawesome-icon-paper-plane:before { content: "\f2a4"; }
+.fontawesome-icon-pause-circle:before { content: "\f2a5"; }
+.fontawesome-icon-play-circle:before { content: "\f2a6"; }
+.fontawesome-icon-plus-square:before { content: "\f2a7"; }
+.fontawesome-icon-question-circle:before { content: "\f2a8"; }
+.fontawesome-icon-registered:before { content: "\f2a9"; }
+.fontawesome-icon-save:before { content: "\f2aa"; }
+.fontawesome-icon-share-square:before { content: "\f2ab"; }
+.fontawesome-icon-smile:before { content: "\f2ac"; }
+.fontawesome-icon-snowflake:before { content: "\f2ad"; }
+.fontawesome-icon-solid-address-book:before { content: "\f2ae"; }
+.fontawesome-icon-solid-address-card:before { content: "\f2af"; }
+.fontawesome-icon-solid-adjust:before { content: "\f2b0"; }
+.fontawesome-icon-solid-align-center:before { content: "\f2b1"; }
+.fontawesome-icon-solid-align-justify:before { content: "\f2b2"; }
+.fontawesome-icon-solid-align-left:before { content: "\f2b3"; }
+.fontawesome-icon-solid-align-right:before { content: "\f2b4"; }
+.fontawesome-icon-solid-ambulance:before { content: "\f2b5"; }
+.fontawesome-icon-solid-american-sign-language-interpreting:before { content: "\f2b6"; }
+.fontawesome-icon-solid-anchor:before { content: "\f2b7"; }
+.fontawesome-icon-solid-angle-double-down:before { content: "\f2b8"; }
+.fontawesome-icon-solid-angle-double-left:before { content: "\f2b9"; }
+.fontawesome-icon-solid-angle-double-right:before { content: "\f2ba"; }
+.fontawesome-icon-solid-angle-double-up:before { content: "\f2bb"; }
+.fontawesome-icon-solid-angle-down:before { content: "\f2bc"; }
+.fontawesome-icon-solid-angle-left:before { content: "\f2bd"; }
+.fontawesome-icon-solid-angle-right:before { content: "\f2be"; }
+.fontawesome-icon-solid-angle-up:before { content: "\f2bf"; }
+.fontawesome-icon-solid-archive:before { content: "\f2c0"; }
+.fontawesome-icon-solid-arrow-alt-circle-down:before { content: "\f2c1"; }
+.fontawesome-icon-solid-arrow-alt-circle-left:before { content: "\f2c2"; }
+.fontawesome-icon-solid-arrow-alt-circle-right:before { content: "\f2c3"; }
+.fontawesome-icon-solid-arrow-alt-circle-up:before { content: "\f2c4"; }
+.fontawesome-icon-solid-arrow-circle-down:before { content: "\f2c5"; }
+.fontawesome-icon-solid-arrow-circle-left:before { content: "\f2c6"; }
+.fontawesome-icon-solid-arrow-circle-right:before { content: "\f2c7"; }
+.fontawesome-icon-solid-arrow-circle-up:before { content: "\f2c8"; }
+.fontawesome-icon-solid-arrow-down:before { content: "\f2c9"; }
+.fontawesome-icon-solid-arrow-left:before { content: "\f2ca"; }
+.fontawesome-icon-solid-arrow-right:before { content: "\f2cb"; }
+.fontawesome-icon-solid-arrow-up:before { content: "\f2cc"; }
+.fontawesome-icon-solid-arrows-alt:before { content: "\f2cd"; }
+.fontawesome-icon-solid-arrows-alt-h:before { content: "\f2ce"; }
+.fontawesome-icon-solid-arrows-alt-v:before { content: "\f2cf"; }
+.fontawesome-icon-solid-assistive-listening-systems:before { content: "\f2d0"; }
+.fontawesome-icon-solid-asterisk:before { content: "\f2d1"; }
+.fontawesome-icon-solid-at:before { content: "\f2d2"; }
+.fontawesome-icon-solid-audio-description:before { content: "\f2d3"; }
+.fontawesome-icon-solid-backward:before { content: "\f2d4"; }
+.fontawesome-icon-solid-balance-scale:before { content: "\f2d5"; }
+.fontawesome-icon-solid-ban:before { content: "\f2d6"; }
+.fontawesome-icon-solid-barcode:before { content: "\f2d7"; }
+.fontawesome-icon-solid-bars:before { content: "\f2d8"; }
+.fontawesome-icon-solid-baseball-ball:before { content: "\f2d9"; }
+.fontawesome-icon-solid-basketball-ball:before { content: "\f2da"; }
+.fontawesome-icon-solid-bath:before { content: "\f2db"; }
+.fontawesome-icon-solid-battery-empty:before { content: "\f2dc"; }
+.fontawesome-icon-solid-battery-full:before { content: "\f2dd"; }
+.fontawesome-icon-solid-battery-half:before { content: "\f2de"; }
+.fontawesome-icon-solid-battery-quarter:before { content: "\f2df"; }
+.fontawesome-icon-solid-battery-three-quarters:before { content: "\f2e0"; }
+.fontawesome-icon-solid-bed:before { content: "\f2e1"; }
+.fontawesome-icon-solid-beer:before { content: "\f2e2"; }
+.fontawesome-icon-solid-bell:before { content: "\f2e3"; }
+.fontawesome-icon-solid-bell-slash:before { content: "\f2e4"; }
+.fontawesome-icon-solid-bicycle:before { content: "\f2e5"; }
+.fontawesome-icon-solid-binoculars:before { content: "\f2e6"; }
+.fontawesome-icon-solid-birthday-cake:before { content: "\f2e7"; }
+.fontawesome-icon-solid-blind:before { content: "\f2e8"; }
+.fontawesome-icon-solid-bold:before { content: "\f2e9"; }
+.fontawesome-icon-solid-bolt:before { content: "\f2ea"; }
+.fontawesome-icon-solid-bomb:before { content: "\f2eb"; }
+.fontawesome-icon-solid-book:before { content: "\f2ec"; }
+.fontawesome-icon-solid-bookmark:before { content: "\f2ed"; }
+.fontawesome-icon-solid-bowling-ball:before { content: "\f2ee"; }
+.fontawesome-icon-solid-braille:before { content: "\f2ef"; }
+.fontawesome-icon-solid-briefcase:before { content: "\f2f0"; }
+.fontawesome-icon-solid-bug:before { content: "\f2f1"; }
+.fontawesome-icon-solid-building:before { content: "\f2f2"; }
+.fontawesome-icon-solid-bullhorn:before { content: "\f2f3"; }
+.fontawesome-icon-solid-bullseye:before { content: "\f2f4"; }
+.fontawesome-icon-solid-bus:before { content: "\f2f5"; }
+.fontawesome-icon-solid-calculator:before { content: "\f2f6"; }
+.fontawesome-icon-solid-calendar:before { content: "\f2f7"; }
+.fontawesome-icon-solid-calendar-alt:before { content: "\f2f8"; }
+.fontawesome-icon-solid-calendar-check:before { content: "\f2f9"; }
+.fontawesome-icon-solid-calendar-minus:before { content: "\f2fa"; }
+.fontawesome-icon-solid-calendar-plus:before { content: "\f2fb"; }
+.fontawesome-icon-solid-calendar-times:before { content: "\f2fc"; }
+.fontawesome-icon-solid-camera:before { content: "\f2fd"; }
+.fontawesome-icon-solid-camera-retro:before { content: "\f2fe"; }
+.fontawesome-icon-solid-car:before { content: "\f2ff"; }
+.fontawesome-icon-solid-caret-down:before { content: "\f300"; }
+.fontawesome-icon-solid-caret-left:before { content: "\f301"; }
+.fontawesome-icon-solid-caret-right:before { content: "\f302"; }
+.fontawesome-icon-solid-caret-square-down:before { content: "\f303"; }
+.fontawesome-icon-solid-caret-square-left:before { content: "\f304"; }
+.fontawesome-icon-solid-caret-square-right:before { content: "\f305"; }
+.fontawesome-icon-solid-caret-square-up:before { content: "\f306"; }
+.fontawesome-icon-solid-caret-up:before { content: "\f307"; }
+.fontawesome-icon-solid-cart-arrow-down:before { content: "\f308"; }
+.fontawesome-icon-solid-cart-plus:before { content: "\f309"; }
+.fontawesome-icon-solid-certificate:before { content: "\f30a"; }
+.fontawesome-icon-solid-chart-area:before { content: "\f30b"; }
+.fontawesome-icon-solid-chart-bar:before { content: "\f30c"; }
+.fontawesome-icon-solid-chart-line:before { content: "\f30d"; }
+.fontawesome-icon-solid-chart-pie:before { content: "\f30e"; }
+.fontawesome-icon-solid-check:before { content: "\f30f"; }
+.fontawesome-icon-solid-check-circle:before { content: "\f310"; }
+.fontawesome-icon-solid-check-square:before { content: "\f311"; }
+.fontawesome-icon-solid-chess:before { content: "\f312"; }
+.fontawesome-icon-solid-chess-bishop:before { content: "\f313"; }
+.fontawesome-icon-solid-chess-board:before { content: "\f314"; }
+.fontawesome-icon-solid-chess-king:before { content: "\f315"; }
+.fontawesome-icon-solid-chess-knight:before { content: "\f316"; }
+.fontawesome-icon-solid-chess-pawn:before { content: "\f317"; }
+.fontawesome-icon-solid-chess-queen:before { content: "\f318"; }
+.fontawesome-icon-solid-chess-rook:before { content: "\f319"; }
+.fontawesome-icon-solid-chevron-circle-down:before { content: "\f31a"; }
+.fontawesome-icon-solid-chevron-circle-left:before { content: "\f31b"; }
+.fontawesome-icon-solid-chevron-circle-right:before { content: "\f31c"; }
+.fontawesome-icon-solid-chevron-circle-up:before { content: "\f31d"; }
+.fontawesome-icon-solid-chevron-down:before { content: "\f31e"; }
+.fontawesome-icon-solid-chevron-left:before { content: "\f31f"; }
+.fontawesome-icon-solid-chevron-right:before { content: "\f320"; }
+.fontawesome-icon-solid-chevron-up:before { content: "\f321"; }
+.fontawesome-icon-solid-child:before { content: "\f322"; }
+.fontawesome-icon-solid-circle:before { content: "\f323"; }
+.fontawesome-icon-solid-circle-notch:before { content: "\f324"; }
+.fontawesome-icon-solid-clipboard:before { content: "\f325"; }
+.fontawesome-icon-solid-clock:before { content: "\f326"; }
+.fontawesome-icon-solid-clone:before { content: "\f327"; }
+.fontawesome-icon-solid-closed-captioning:before { content: "\f328"; }
+.fontawesome-icon-solid-cloud:before { content: "\f329"; }
+.fontawesome-icon-solid-cloud-download-alt:before { content: "\f32a"; }
+.fontawesome-icon-solid-cloud-upload-alt:before { content: "\f32b"; }
+.fontawesome-icon-solid-code:before { content: "\f32c"; }
+.fontawesome-icon-solid-code-branch:before { content: "\f32d"; }
+.fontawesome-icon-solid-coffee:before { content: "\f32e"; }
+.fontawesome-icon-solid-cog:before { content: "\f32f"; }
+.fontawesome-icon-solid-cogs:before { content: "\f330"; }
+.fontawesome-icon-solid-columns:before { content: "\f331"; }
+.fontawesome-icon-solid-comment:before { content: "\f332"; }
+.fontawesome-icon-solid-comment-alt:before { content: "\f333"; }
+.fontawesome-icon-solid-comments:before { content: "\f334"; }
+.fontawesome-icon-solid-compass:before { content: "\f335"; }
+.fontawesome-icon-solid-compress:before { content: "\f336"; }
+.fontawesome-icon-solid-copy:before { content: "\f337"; }
+.fontawesome-icon-solid-copyright:before { content: "\f338"; }
+.fontawesome-icon-solid-credit-card:before { content: "\f339"; }
+.fontawesome-icon-solid-crop:before { content: "\f33a"; }
+.fontawesome-icon-solid-crosshairs:before { content: "\f33b"; }
+.fontawesome-icon-solid-cube:before { content: "\f33c"; }
+.fontawesome-icon-solid-cubes:before { content: "\f33d"; }
+.fontawesome-icon-solid-cut:before { content: "\f33e"; }
+.fontawesome-icon-solid-database:before { content: "\f33f"; }
+.fontawesome-icon-solid-deaf:before { content: "\f340"; }
+.fontawesome-icon-solid-desktop:before { content: "\f341"; }
+.fontawesome-icon-solid-dollar-sign:before { content: "\f342"; }
+.fontawesome-icon-solid-dot-circle:before { content: "\f343"; }
+.fontawesome-icon-solid-download:before { content: "\f344"; }
+.fontawesome-icon-solid-edit:before { content: "\f345"; }
+.fontawesome-icon-solid-eject:before { content: "\f346"; }
+.fontawesome-icon-solid-ellipsis-h:before { content: "\f347"; }
+.fontawesome-icon-solid-ellipsis-v:before { content: "\f348"; }
+.fontawesome-icon-solid-envelope:before { content: "\f349"; }
+.fontawesome-icon-solid-envelope-open:before { content: "\f34a"; }
+.fontawesome-icon-solid-envelope-square:before { content: "\f34b"; }
+.fontawesome-icon-solid-eraser:before { content: "\f34c"; }
+.fontawesome-icon-solid-euro-sign:before { content: "\f34d"; }
+.fontawesome-icon-solid-exchange-alt:before { content: "\f34e"; }
+.fontawesome-icon-solid-exclamation:before { content: "\f34f"; }
+.fontawesome-icon-solid-exclamation-circle:before { content: "\f350"; }
+.fontawesome-icon-solid-exclamation-triangle:before { content: "\f351"; }
+.fontawesome-icon-solid-expand:before { content: "\f352"; }
+.fontawesome-icon-solid-expand-arrows-alt:before { content: "\f353"; }
+.fontawesome-icon-solid-external-link-alt:before { content: "\f354"; }
+.fontawesome-icon-solid-external-link-square-alt:before { content: "\f355"; }
+.fontawesome-icon-solid-eye:before { content: "\f356"; }
+.fontawesome-icon-solid-eye-dropper:before { content: "\f357"; }
+.fontawesome-icon-solid-eye-slash:before { content: "\f358"; }
+.fontawesome-icon-solid-fast-backward:before { content: "\f359"; }
+.fontawesome-icon-solid-fast-forward:before { content: "\f35a"; }
+.fontawesome-icon-solid-fax:before { content: "\f35b"; }
+.fontawesome-icon-solid-female:before { content: "\f35c"; }
+.fontawesome-icon-solid-fighter-jet:before { content: "\f35d"; }
+.fontawesome-icon-solid-file:before { content: "\f35e"; }
+.fontawesome-icon-solid-file-alt:before { content: "\f35f"; }
+.fontawesome-icon-solid-file-archive:before { content: "\f360"; }
+.fontawesome-icon-solid-file-audio:before { content: "\f361"; }
+.fontawesome-icon-solid-file-code:before { content: "\f362"; }
+.fontawesome-icon-solid-file-excel:before { content: "\f363"; }
+.fontawesome-icon-solid-file-image:before { content: "\f364"; }
+.fontawesome-icon-solid-file-pdf:before { content: "\f365"; }
+.fontawesome-icon-solid-file-powerpoint:before { content: "\f366"; }
+.fontawesome-icon-solid-file-video:before { content: "\f367"; }
+.fontawesome-icon-solid-file-word:before { content: "\f368"; }
+.fontawesome-icon-solid-film:before { content: "\f369"; }
+.fontawesome-icon-solid-filter:before { content: "\f36a"; }
+.fontawesome-icon-solid-fire:before { content: "\f36b"; }
+.fontawesome-icon-solid-fire-extinguisher:before { content: "\f36c"; }
+.fontawesome-icon-solid-flag:before { content: "\f36d"; }
+.fontawesome-icon-solid-flag-checkered:before { content: "\f36e"; }
+.fontawesome-icon-solid-flask:before { content: "\f36f"; }
+.fontawesome-icon-solid-folder:before { content: "\f370"; }
+.fontawesome-icon-solid-folder-open:before { content: "\f371"; }
+.fontawesome-icon-solid-font:before { content: "\f372"; }
+.fontawesome-icon-solid-football-ball:before { content: "\f373"; }
+.fontawesome-icon-solid-forward:before { content: "\f374"; }
+.fontawesome-icon-solid-frown:before { content: "\f375"; }
+.fontawesome-icon-solid-futbol:before { content: "\f376"; }
+.fontawesome-icon-solid-gamepad:before { content: "\f377"; }
+.fontawesome-icon-solid-gavel:before { content: "\f378"; }
+.fontawesome-icon-solid-gem:before { content: "\f379"; }
+.fontawesome-icon-solid-genderless:before { content: "\f37a"; }
+.fontawesome-icon-solid-gift:before { content: "\f37b"; }
+.fontawesome-icon-solid-glass-martini:before { content: "\f37c"; }
+.fontawesome-icon-solid-globe:before { content: "\f37d"; }
+.fontawesome-icon-solid-golf-ball:before { content: "\f37e"; }
+.fontawesome-icon-solid-graduation-cap:before { content: "\f37f"; }
+.fontawesome-icon-solid-h-square:before { content: "\f380"; }
+.fontawesome-icon-solid-hand-lizard:before { content: "\f381"; }
+.fontawesome-icon-solid-hand-paper:before { content: "\f382"; }
+.fontawesome-icon-solid-hand-peace:before { content: "\f383"; }
+.fontawesome-icon-solid-hand-point-down:before { content: "\f384"; }
+.fontawesome-icon-solid-hand-point-left:before { content: "\f385"; }
+.fontawesome-icon-solid-hand-point-right:before { content: "\f386"; }
+.fontawesome-icon-solid-hand-point-up:before { content: "\f387"; }
+.fontawesome-icon-solid-hand-pointer:before { content: "\f388"; }
+.fontawesome-icon-solid-hand-rock:before { content: "\f389"; }
+.fontawesome-icon-solid-hand-scissors:before { content: "\f38a"; }
+.fontawesome-icon-solid-hand-spock:before { content: "\f38b"; }
+.fontawesome-icon-solid-handshake:before { content: "\f38c"; }
+.fontawesome-icon-solid-hashtag:before { content: "\f38d"; }
+.fontawesome-icon-solid-hdd:before { content: "\f38e"; }
+.fontawesome-icon-solid-heading:before { content: "\f38f"; }
+.fontawesome-icon-solid-headphones:before { content: "\f390"; }
+.fontawesome-icon-solid-heart:before { content: "\f391"; }
+.fontawesome-icon-solid-heartbeat:before { content: "\f392"; }
+.fontawesome-icon-solid-history:before { content: "\f393"; }
+.fontawesome-icon-solid-hockey-puck:before { content: "\f394"; }
+.fontawesome-icon-solid-home:before { content: "\f395"; }
+.fontawesome-icon-solid-hospital:before { content: "\f396"; }
+.fontawesome-icon-solid-hourglass:before { content: "\f397"; }
+.fontawesome-icon-solid-hourglass-end:before { content: "\f398"; }
+.fontawesome-icon-solid-hourglass-half:before { content: "\f399"; }
+.fontawesome-icon-solid-hourglass-start:before { content: "\f39a"; }
+.fontawesome-icon-solid-i-cursor:before { content: "\f39b"; }
+.fontawesome-icon-solid-id-badge:before { content: "\f39c"; }
+.fontawesome-icon-solid-id-card:before { content: "\f39d"; }
+.fontawesome-icon-solid-image:before { content: "\f39e"; }
+.fontawesome-icon-solid-images:before { content: "\f39f"; }
+.fontawesome-icon-solid-inbox:before { content: "\f3a0"; }
+.fontawesome-icon-solid-indent:before { content: "\f3a1"; }
+.fontawesome-icon-solid-industry:before { content: "\f3a2"; }
+.fontawesome-icon-solid-info:before { content: "\f3a3"; }
+.fontawesome-icon-solid-info-circle:before { content: "\f3a4"; }
+.fontawesome-icon-solid-italic:before { content: "\f3a5"; }
+.fontawesome-icon-solid-key:before { content: "\f3a6"; }
+.fontawesome-icon-solid-keyboard:before { content: "\f3a7"; }
+.fontawesome-icon-solid-language:before { content: "\f3a8"; }
+.fontawesome-icon-solid-laptop:before { content: "\f3a9"; }
+.fontawesome-icon-solid-leaf:before { content: "\f3aa"; }
+.fontawesome-icon-solid-lemon:before { content: "\f3ab"; }
+.fontawesome-icon-solid-level-down-alt:before { content: "\f3ac"; }
+.fontawesome-icon-solid-level-up-alt:before { content: "\f3ad"; }
+.fontawesome-icon-solid-life-ring:before { content: "\f3ae"; }
+.fontawesome-icon-solid-lightbulb:before { content: "\f3af"; }
+.fontawesome-icon-solid-link:before { content: "\f3b0"; }
+.fontawesome-icon-solid-lira-sign:before { content: "\f3b1"; }
+.fontawesome-icon-solid-list:before { content: "\f3b2"; }
+.fontawesome-icon-solid-list-alt:before { content: "\f3b3"; }
+.fontawesome-icon-solid-list-ol:before { content: "\f3b4"; }
+.fontawesome-icon-solid-list-ul:before { content: "\f3b5"; }
+.fontawesome-icon-solid-location-arrow:before { content: "\f3b6"; }
+.fontawesome-icon-solid-lock:before { content: "\f3b7"; }
+.fontawesome-icon-solid-lock-open:before { content: "\f3b8"; }
+.fontawesome-icon-solid-long-arrow-alt-down:before { content: "\f3b9"; }
+.fontawesome-icon-solid-long-arrow-alt-left:before { content: "\f3ba"; }
+.fontawesome-icon-solid-long-arrow-alt-right:before { content: "\f3bb"; }
+.fontawesome-icon-solid-long-arrow-alt-up:before { content: "\f3bc"; }
+.fontawesome-icon-solid-low-vision:before { content: "\f3bd"; }
+.fontawesome-icon-solid-magic:before { content: "\f3be"; }
+.fontawesome-icon-solid-magnet:before { content: "\f3bf"; }
+.fontawesome-icon-solid-male:before { content: "\f3c0"; }
+.fontawesome-icon-solid-map:before { content: "\f3c1"; }
+.fontawesome-icon-solid-map-marker:before { content: "\f3c2"; }
+.fontawesome-icon-solid-map-marker-alt:before { content: "\f3c3"; }
+.fontawesome-icon-solid-map-pin:before { content: "\f3c4"; }
+.fontawesome-icon-solid-map-signs:before { content: "\f3c5"; }
+.fontawesome-icon-solid-mars:before { content: "\f3c6"; }
+.fontawesome-icon-solid-mars-double:before { content: "\f3c7"; }
+.fontawesome-icon-solid-mars-stroke:before { content: "\f3c8"; }
+.fontawesome-icon-solid-mars-stroke-h:before { content: "\f3c9"; }
+.fontawesome-icon-solid-mars-stroke-v:before { content: "\f3ca"; }
+.fontawesome-icon-solid-medkit:before { content: "\f3cb"; }
+.fontawesome-icon-solid-meh:before { content: "\f3cc"; }
+.fontawesome-icon-solid-mercury:before { content: "\f3cd"; }
+.fontawesome-icon-solid-microchip:before { content: "\f3ce"; }
+.fontawesome-icon-solid-microphone:before { content: "\f3cf"; }
+.fontawesome-icon-solid-microphone-slash:before { content: "\f3d0"; }
+.fontawesome-icon-solid-minus:before { content: "\f3d1"; }
+.fontawesome-icon-solid-minus-circle:before { content: "\f3d2"; }
+.fontawesome-icon-solid-minus-square:before { content: "\f3d3"; }
+.fontawesome-icon-solid-mobile:before { content: "\f3d4"; }
+.fontawesome-icon-solid-mobile-alt:before { content: "\f3d5"; }
+.fontawesome-icon-solid-money-bill-alt:before { content: "\f3d6"; }
+.fontawesome-icon-solid-moon:before { content: "\f3d7"; }
+.fontawesome-icon-solid-motorcycle:before { content: "\f3d8"; }
+.fontawesome-icon-solid-mouse-pointer:before { content: "\f3d9"; }
+.fontawesome-icon-solid-music:before { content: "\f3da"; }
+.fontawesome-icon-solid-neuter:before { content: "\f3db"; }
+.fontawesome-icon-solid-newspaper:before { content: "\f3dc"; }
+.fontawesome-icon-solid-object-group:before { content: "\f3dd"; }
+.fontawesome-icon-solid-object-ungroup:before { content: "\f3de"; }
+.fontawesome-icon-solid-outdent:before { content: "\f3df"; }
+.fontawesome-icon-solid-paint-brush:before { content: "\f3e0"; }
+.fontawesome-icon-solid-paper-plane:before { content: "\f3e1"; }
+.fontawesome-icon-solid-paperclip:before { content: "\f3e2"; }
+.fontawesome-icon-solid-paragraph:before { content: "\f3e3"; }
+.fontawesome-icon-solid-paste:before { content: "\f3e4"; }
+.fontawesome-icon-solid-pause:before { content: "\f3e5"; }
+.fontawesome-icon-solid-pause-circle:before { content: "\f3e6"; }
+.fontawesome-icon-solid-paw:before { content: "\f3e7"; }
+.fontawesome-icon-solid-pen-square:before { content: "\f3e8"; }
+.fontawesome-icon-solid-pencil-alt:before { content: "\f3e9"; }
+.fontawesome-icon-solid-percent:before { content: "\f3ea"; }
+.fontawesome-icon-solid-phone:before { content: "\f3eb"; }
+.fontawesome-icon-solid-phone-square:before { content: "\f3ec"; }
+.fontawesome-icon-solid-phone-volume:before { content: "\f3ed"; }
+.fontawesome-icon-solid-plane:before { content: "\f3ee"; }
+.fontawesome-icon-solid-play:before { content: "\f3ef"; }
+.fontawesome-icon-solid-play-circle:before { content: "\f3f0"; }
+.fontawesome-icon-solid-plug:before { content: "\f3f1"; }
+.fontawesome-icon-solid-plus:before { content: "\f3f2"; }
+.fontawesome-icon-solid-plus-circle:before { content: "\f3f3"; }
+.fontawesome-icon-solid-plus-square:before { content: "\f3f4"; }
+.fontawesome-icon-solid-podcast:before { content: "\f3f5"; }
+.fontawesome-icon-solid-pound-sign:before { content: "\f3f6"; }
+.fontawesome-icon-solid-power-off:before { content: "\f3f7"; }
+.fontawesome-icon-solid-print:before { content: "\f3f8"; }
+.fontawesome-icon-solid-puzzle-piece:before { content: "\f3f9"; }
+.fontawesome-icon-solid-qrcode:before { content: "\f3fa"; }
+.fontawesome-icon-solid-question:before { content: "\f3fb"; }
+.fontawesome-icon-solid-question-circle:before { content: "\f3fc"; }
+.fontawesome-icon-solid-quidditch:before { content: "\f3fd"; }
+.fontawesome-icon-solid-quote-left:before { content: "\f3fe"; }
+.fontawesome-icon-solid-quote-right:before { content: "\f3ff"; }
+.fontawesome-icon-solid-random:before { content: "\f400"; }
+.fontawesome-icon-solid-recycle:before { content: "\f401"; }
+.fontawesome-icon-solid-redo:before { content: "\f402"; }
+.fontawesome-icon-solid-redo-alt:before { content: "\f403"; }
+.fontawesome-icon-solid-registered:before { content: "\f404"; }
+.fontawesome-icon-solid-reply:before { content: "\f405"; }
+.fontawesome-icon-solid-reply-all:before { content: "\f406"; }
+.fontawesome-icon-solid-retweet:before { content: "\f407"; }
+.fontawesome-icon-solid-road:before { content: "\f408"; }
+.fontawesome-icon-solid-rocket:before { content: "\f409"; }
+.fontawesome-icon-solid-rss:before { content: "\f40a"; }
+.fontawesome-icon-solid-rss-square:before { content: "\f40b"; }
+.fontawesome-icon-solid-ruble-sign:before { content: "\f40c"; }
+.fontawesome-icon-solid-rupee-sign:before { content: "\f40d"; }
+.fontawesome-icon-solid-save:before { content: "\f40e"; }
+.fontawesome-icon-solid-search:before { content: "\f40f"; }
+.fontawesome-icon-solid-search-minus:before { content: "\f410"; }
+.fontawesome-icon-solid-search-plus:before { content: "\f411"; }
+.fontawesome-icon-solid-server:before { content: "\f412"; }
+.fontawesome-icon-solid-share:before { content: "\f413"; }
+.fontawesome-icon-solid-share-alt:before { content: "\f414"; }
+.fontawesome-icon-solid-share-alt-square:before { content: "\f415"; }
+.fontawesome-icon-solid-share-square:before { content: "\f416"; }
+.fontawesome-icon-solid-shekel-sign:before { content: "\f417"; }
+.fontawesome-icon-solid-shield-alt:before { content: "\f418"; }
+.fontawesome-icon-solid-ship:before { content: "\f419"; }
+.fontawesome-icon-solid-shopping-bag:before { content: "\f41a"; }
+.fontawesome-icon-solid-shopping-basket:before { content: "\f41b"; }
+.fontawesome-icon-solid-shopping-cart:before { content: "\f41c"; }
+.fontawesome-icon-solid-shower:before { content: "\f41d"; }
+.fontawesome-icon-solid-sign-in-alt:before { content: "\f41e"; }
+.fontawesome-icon-solid-sign-language:before { content: "\f41f"; }
+.fontawesome-icon-solid-sign-out-alt:before { content: "\f420"; }
+.fontawesome-icon-solid-signal:before { content: "\f421"; }
+.fontawesome-icon-solid-sitemap:before { content: "\f422"; }
+.fontawesome-icon-solid-sliders-h:before { content: "\f423"; }
+.fontawesome-icon-solid-smile:before { content: "\f424"; }
+.fontawesome-icon-solid-snowflake:before { content: "\f425"; }
+.fontawesome-icon-solid-sort:before { content: "\f426"; }
+.fontawesome-icon-solid-sort-alpha-down:before { content: "\f427"; }
+.fontawesome-icon-solid-sort-alpha-up:before { content: "\f428"; }
+.fontawesome-icon-solid-sort-amount-down:before { content: "\f429"; }
+.fontawesome-icon-solid-sort-amount-up:before { content: "\f42a"; }
+.fontawesome-icon-solid-sort-down:before { content: "\f42b"; }
+.fontawesome-icon-solid-sort-numeric-down:before { content: "\f42c"; }
+.fontawesome-icon-solid-sort-numeric-up:before { content: "\f42d"; }
+.fontawesome-icon-solid-sort-up:before { content: "\f42e"; }
+.fontawesome-icon-solid-space-shuttle:before { content: "\f42f"; }
+.fontawesome-icon-solid-spinner:before { content: "\f430"; }
+.fontawesome-icon-solid-square:before { content: "\f431"; }
+.fontawesome-icon-solid-square-full:before { content: "\f432"; }
+.fontawesome-icon-solid-star:before { content: "\f433"; }
+.fontawesome-icon-solid-star-half:before { content: "\f434"; }
+.fontawesome-icon-solid-step-backward:before { content: "\f435"; }
+.fontawesome-icon-solid-step-forward:before { content: "\f436"; }
+.fontawesome-icon-solid-stethoscope:before { content: "\f437"; }
+.fontawesome-icon-solid-sticky-note:before { content: "\f438"; }
+.fontawesome-icon-solid-stop:before { content: "\f439"; }
+.fontawesome-icon-solid-stop-circle:before { content: "\f43a"; }
+.fontawesome-icon-solid-stopwatch:before { content: "\f43b"; }
+.fontawesome-icon-solid-street-view:before { content: "\f43c"; }
+.fontawesome-icon-solid-strikethrough:before { content: "\f43d"; }
+.fontawesome-icon-solid-subscript:before { content: "\f43e"; }
+.fontawesome-icon-solid-subway:before { content: "\f43f"; }
+.fontawesome-icon-solid-suitcase:before { content: "\f440"; }
+.fontawesome-icon-solid-sun:before { content: "\f441"; }
+.fontawesome-icon-solid-superscript:before { content: "\f442"; }
+.fontawesome-icon-solid-sync:before { content: "\f443"; }
+.fontawesome-icon-solid-sync-alt:before { content: "\f444"; }
+.fontawesome-icon-solid-table:before { content: "\f445"; }
+.fontawesome-icon-solid-table-tennis:before { content: "\f446"; }
+.fontawesome-icon-solid-tablet:before { content: "\f447"; }
+.fontawesome-icon-solid-tablet-alt:before { content: "\f448"; }
+.fontawesome-icon-solid-tachometer-alt:before { content: "\f449"; }
+.fontawesome-icon-solid-tag:before { content: "\f44a"; }
+.fontawesome-icon-solid-tags:before { content: "\f44b"; }
+.fontawesome-icon-solid-tasks:before { content: "\f44c"; }
+.fontawesome-icon-solid-taxi:before { content: "\f44d"; }
+.fontawesome-icon-solid-terminal:before { content: "\f44e"; }
+.fontawesome-icon-solid-text-height:before { content: "\f44f"; }
+.fontawesome-icon-solid-text-width:before { content: "\f450"; }
+.fontawesome-icon-solid-th:before { content: "\f451"; }
+.fontawesome-icon-solid-th-large:before { content: "\f452"; }
+.fontawesome-icon-solid-th-list:before { content: "\f453"; }
+.fontawesome-icon-solid-thermometer-empty:before { content: "\f454"; }
+.fontawesome-icon-solid-thermometer-full:before { content: "\f455"; }
+.fontawesome-icon-solid-thermometer-half:before { content: "\f456"; }
+.fontawesome-icon-solid-thermometer-quarter:before { content: "\f457"; }
+.fontawesome-icon-solid-thermometer-three-quarters:before { content: "\f458"; }
+.fontawesome-icon-solid-thumbs-down:before { content: "\f459"; }
+.fontawesome-icon-solid-thumbs-up:before { content: "\f45a"; }
+.fontawesome-icon-solid-thumbtack:before { content: "\f45b"; }
+.fontawesome-icon-solid-ticket-alt:before { content: "\f45c"; }
+.fontawesome-icon-solid-times:before { content: "\f45d"; }
+.fontawesome-icon-solid-times-circle:before { content: "\f45e"; }
+.fontawesome-icon-solid-tint:before { content: "\f45f"; }
+.fontawesome-icon-solid-toggle-off:before { content: "\f460"; }
+.fontawesome-icon-solid-toggle-on:before { content: "\f461"; }
+.fontawesome-icon-solid-trademark:before { content: "\f462"; }
+.fontawesome-icon-solid-train:before { content: "\f463"; }
+.fontawesome-icon-solid-transgender:before { content: "\f464"; }
+.fontawesome-icon-solid-transgender-alt:before { content: "\f465"; }
+.fontawesome-icon-solid-trash:before { content: "\f466"; }
+.fontawesome-icon-solid-trash-alt:before { content: "\f467"; }
+.fontawesome-icon-solid-tree:before { content: "\f468"; }
+.fontawesome-icon-solid-trophy:before { content: "\f469"; }
+.fontawesome-icon-solid-truck:before { content: "\f46a"; }
+.fontawesome-icon-solid-tty:before { content: "\f46b"; }
+.fontawesome-icon-solid-tv:before { content: "\f46c"; }
+.fontawesome-icon-solid-umbrella:before { content: "\f46d"; }
+.fontawesome-icon-solid-underline:before { content: "\f46e"; }
+.fontawesome-icon-solid-undo:before { content: "\f46f"; }
+.fontawesome-icon-solid-undo-alt:before { content: "\f470"; }
+.fontawesome-icon-solid-universal-access:before { content: "\f471"; }
+.fontawesome-icon-solid-university:before { content: "\f472"; }
+.fontawesome-icon-solid-unlink:before { content: "\f473"; }
+.fontawesome-icon-solid-unlock:before { content: "\f474"; }
+.fontawesome-icon-solid-unlock-alt:before { content: "\f475"; }
+.fontawesome-icon-solid-upload:before { content: "\f476"; }
+.fontawesome-icon-solid-user:before { content: "\f477"; }
+.fontawesome-icon-solid-user-circle:before { content: "\f478"; }
+.fontawesome-icon-solid-user-md:before { content: "\f479"; }
+.fontawesome-icon-solid-user-plus:before { content: "\f47a"; }
+.fontawesome-icon-solid-user-secret:before { content: "\f47b"; }
+.fontawesome-icon-solid-user-times:before { content: "\f47c"; }
+.fontawesome-icon-solid-users:before { content: "\f47d"; }
+.fontawesome-icon-solid-utensil-spoon:before { content: "\f47e"; }
+.fontawesome-icon-solid-utensils:before { content: "\f47f"; }
+.fontawesome-icon-solid-venus:before { content: "\f480"; }
+.fontawesome-icon-solid-venus-double:before { content: "\f481"; }
+.fontawesome-icon-solid-venus-mars:before { content: "\f482"; }
+.fontawesome-icon-solid-video:before { content: "\f483"; }
+.fontawesome-icon-solid-volleyball-ball:before { content: "\f484"; }
+.fontawesome-icon-solid-volume-down:before { content: "\f485"; }
+.fontawesome-icon-solid-volume-off:before { content: "\f486"; }
+.fontawesome-icon-solid-volume-up:before { content: "\f487"; }
+.fontawesome-icon-solid-wheelchair:before { content: "\f488"; }
+.fontawesome-icon-solid-wifi:before { content: "\f489"; }
+.fontawesome-icon-solid-window-close:before { content: "\f48a"; }
+.fontawesome-icon-solid-window-maximize:before { content: "\f48b"; }
+.fontawesome-icon-solid-window-minimize:before { content: "\f48c"; }
+.fontawesome-icon-solid-window-restore:before { content: "\f48d"; }
+.fontawesome-icon-solid-won-sign:before { content: "\f48e"; }
+.fontawesome-icon-solid-wrench:before { content: "\f48f"; }
+.fontawesome-icon-solid-yen-sign:before { content: "\f490"; }
+.fontawesome-icon-square:before { content: "\f491"; }
+.fontawesome-icon-star:before { content: "\f492"; }
+.fontawesome-icon-star-half:before { content: "\f493"; }
+.fontawesome-icon-sticky-note:before { content: "\f494"; }
+.fontawesome-icon-stop-circle:before { content: "\f495"; }
+.fontawesome-icon-sun:before { content: "\f496"; }
+.fontawesome-icon-thumbs-down:before { content: "\f497"; }
+.fontawesome-icon-thumbs-up:before { content: "\f498"; }
+.fontawesome-icon-times-circle:before { content: "\f499"; }
+.fontawesome-icon-trash-alt:before { content: "\f49a"; }
+.fontawesome-icon-user:before { content: "\f49b"; }
+.fontawesome-icon-user-circle:before { content: "\f49c"; }
+.fontawesome-icon-window-close:before { content: "\f49d"; }
+.fontawesome-icon-window-maximize:before { content: "\f49e"; }
+.fontawesome-icon-window-minimize:before { content: "\f49f"; }
+.fontawesome-icon-window-restore:before { content: "\f4a0"; }

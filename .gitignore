@@ -1,3 +1,13 @@
+# Ignore the fontcustom manifest
+.fontcustom-manifest.json
+
+# Ignore the generated utilities for embedding with NanoGUI
+nanogui/**
+!nanogui/constants_fontawesome.cpp
+!nanogui/example_fontawesome.cpp
+!nanogui/example_fontawesome.py
+!nanogui/fontawesome.h
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

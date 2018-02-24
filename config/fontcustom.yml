@@ -1,0 +1,28 @@
+
+font_name: "fontawesome"
+# VERY IMPORTANT!  The css_selector must be EXACTLY
+#     ".{{font_name}}-icon-{{glyph}}"
+# Otherwise generate.py will NOT be able to parse the generated css file!
+css_selector: ".fontawesome-icon-{{glyph}}"
+preprocessor_path: ""
+# you can try setting autowidth to 'true', but it may not look right
+# what this does is try and scale the icons to be the same size.  on some
+# fonts, it may be necessary.  on others, it may produce shearing.
+autowidth: false
+no_hash: true
+force: false
+debug: false
+quiet: false
+
+input:
+    vectors: "icons/fontawesome"
+
+# All output placed in one location
+output:
+    fonts: "compiled_fonts/fontawesome"
+    css:   "compiled_fonts/fontawesome"
+
+templates:
+- scss
+- css
+- preview
