@@ -172,7 +172,7 @@ Here's an example run when generating the
 already made the directory `icons/typicons` and copied the SVG images there.
 
 ```console
-./manufacture.py typicons
+$ ./manufacture.py typicons
 >>> Found 336 icons in /Users/sven/Desktop/nanogui-custom-font-demo/resources/nanogui-custom-font-generator/icons/typicons.
 >>> Please enter the license information for the typicons font, including a
     URL to the official license.  For example, the Font Awesome 5 Free license
