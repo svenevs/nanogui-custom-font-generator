@@ -1,6 +1,14 @@
 # Ignore the fontcustom manifest
 .fontcustom-manifest.json
 
+# Ignore the extra font svg icons (if forking, git add -Af icons/fontname)
+icons/**
+!/icons/fontawesome
+
+# Ignore the extra compiled fonts (if forking, git add -Af compiled_fonts/fontname)
+compiled_fonts/**
+!/compiled_fonts/fontawesome
+
 # Ignore the generated utilities for embedding with NanoGUI
 nanogui/**
 !nanogui/constants_fontawesome.cpp
