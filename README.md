@@ -182,7 +182,7 @@ $ ./manufacture.py typicons
 
     Any input without 'http' in it will be rejected.  Input must be on one line.
 
-   license> CC-BY-SA 3.0: https://github.com/stephenhutchings/typicons.font#license
+    license> CC-BY-SA 3.0: https://github.com/stephenhutchings/typicons.font#license
 >>> Updating configs/fontcustom.yml.
 >>> Updating generate.py.
 Done!

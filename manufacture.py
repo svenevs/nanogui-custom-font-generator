@@ -224,7 +224,7 @@ if __name__ == "__main__":
         font_name=font_name
     )))
     try:
-        license = user_input("   license> ")
+        license = user_input("    license> ")
     except:
         sys.stderr.write("\n\nGoodbye...\n")
         sys.exit(1)
