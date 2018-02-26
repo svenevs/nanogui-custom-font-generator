@@ -264,6 +264,14 @@ That's it!
 
 ## Use the Utilities
 
+> **Tip**: there is a full-fledged example repository that uses the generated
+> `fontawesome` utilities, as well as demonstrates other possible customizations that
+> you can use.  The
+> [Embedding Custom Icon Fonts with NanoGUI](https://github.com/svenevs/nanogui-customization-demo#embedding-custom-icon-fonts-with-nanogui)
+> section outlines what you need to do from building to usage.  The information below
+> covers up to and including compilation details, but does **not** show you how to
+> actually load the font and use it.  The previous link shows those steps.
+
 So now we're ready to use all of this stuff.  The files that NanoGUI needs to embed the
 font are:
 
