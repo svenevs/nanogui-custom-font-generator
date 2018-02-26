@@ -6,8 +6,11 @@ fonts with [NanoGUI][nanogui].
 # Overview
 
 The goal of this repository is to enable [NanoGUI][nanogui] users to be able to embed
-their own custom icon fonts for use with their applications.  The proceedings are as
-follows:
+their own custom icon fonts for use with their applications.
+
+![Customization icons screenshot](fontawesome.png "NanoGUI FontAwesome")
+
+The proceedings are as follows:
 
 Here are the abbreviated instructions.
 
