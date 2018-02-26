@@ -50,11 +50,14 @@ public:
     FontawesomeScreen(const Vector2i &size, const std::string &title, bool resizable)
         : nanogui::Screen(size, title, resizable) {
 
-        auto *theme = new FontawesomeTheme(this->mNVGContext);
-        this->setTheme(theme);
+        mFontawesomeTheme = new FontawesomeTheme(this->mNVGContext);
+        this->setTheme(mFontawesomeTheme);
     }
 
     virtual ~FontawesomeScreen() { /* nothing to free */ }
+
+protected:
+    nanogui::ref<FontawesomeTheme> mFontawesomeTheme;
 };
 
 /* Return false essentially makes it not possible to actually edit this text

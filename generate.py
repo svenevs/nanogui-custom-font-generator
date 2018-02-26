@@ -256,11 +256,14 @@ if __name__ == "__main__":
                 {Name}Screen(const Vector2i &size, const std::string &title, bool resizable)
                     : nanogui::Screen(size, title, resizable) {{
 
-                    auto *theme = new {Name}Theme(this->mNVGContext);
-                    this->setTheme(theme);
+                    m{Name}Theme = new {Name}Theme(this->mNVGContext);
+                    this->setTheme(m{Name}Theme);
                 }}
 
                 virtual ~{Name}Screen() {{ /* nothing to free */ }}
+
+            protected:
+                nanogui::ref<{Name}Theme> m{Name}Theme;
             }};
 
             /* Return false essentially makes it not possible to actually edit this text
