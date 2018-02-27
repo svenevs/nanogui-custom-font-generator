@@ -61,7 +61,7 @@ demonstrate how to just generate it all locally.
 
 ```console
 # Download this repository
-$ https://github.com/svenevs/nanogui-custom-font-generator.git
+$ git clone https://github.com/svenevs/nanogui-custom-font-generator.git
 
 # Enter the top-level
 $ cd nanogui-custom-font-generator/
