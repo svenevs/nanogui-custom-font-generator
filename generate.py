@@ -262,34 +262,48 @@ if __name__ == "__main__":
 
                 virtual ~{Name}Screen() {{ /* nothing to free */ }}
 
+                // allow <ESCAPE> to exit
+                virtual bool keyboardEvent(int key, int scancode, int action, int modifiers) override {{
+                    if (key == GLFW_KEY_ESCAPE && modifiers == 0) {{
+                        setVisible(false);
+                        return true;
+                    }}
+
+                    return Screen::keyboardEvent(key, scancode, action, modifiers);
+                }}
+
             protected:
                 nanogui::ref<{Name}Theme> m{Name}Theme;
             }};
 
-            /* Return false essentially makes it not possible to actually edit this text
-             * box, but keeping it editable=true allows selection for copy-paste.  If the
-             * text box is not editable, then the user cannot highlight it.
-             */
-            static bool textbox_callback(const std::string &) {{ return false; }}
 
-            /* Add a Button and TextBox to represent the specified icon in a horizontal
-             * box layout.  The button is used to show the icon, and the TextBox is used to
-             * show the value to use in code.  The TextBox is set to editable, but with a
-             * callback that always returns false (see textbox_callback above for more info).
-             *
-             * Make sure you put a semicolon after the call to this macro!
-            */
-            #define ADD_ICON(icon)                                                 \
-                Widget *wrapper_##icon = new Widget(wrapper);                      \
-                wrapper_##icon->setLayout(new BoxLayout(Orientation::Horizontal)); \
-                auto *b_##icon = new Button(wrapper_##icon, "", icon);             \
-                b_##icon->setFixedWidth(40);                                       \
-                auto *text_##icon = new TextBox(wrapper_##icon, #icon);            \
-                text_##icon->setDefaultValue(#icon);                               \
-                text_##icon->setEditable(true); /* allow copy-paste */             \
-                text_##icon->setCallback(textbox_callback); /* disable changes */  \
-                text_##icon->setFont("mono-bold");                                 \
-                text_##icon->setFixedWidth(half_width - 40)
+            // Convenience macro for creating an IconBox. Make sure you put a semicolon after the call to this macro!
+            #define ADD_ICON(parent, icon, boxWidth) \
+                new IconBox(parent, #icon, icon, boxWidth)
+
+            class IconBox : public Widget {{
+            public:
+                IconBox(Widget *parent, const std::string &name, int icon, int width)
+                    : Widget(parent) {{
+
+                    this->setLayout(new BoxLayout(Orientation::Horizontal));
+
+                    auto *b = new Button(this, "", icon);
+                    b->setFixedWidth(40);
+
+                    auto *text = new TextBox(this, name);
+                    text->setDefaultValue(name);
+                    text->setEditable(true);
+                    /* Return false essentially makes it not possible to actually edit this text
+                     * box, but keeping it editable=true allows selection for copy-paste.  If the
+                     * text box is not editable, then the user cannot highlight it.
+                     */
+                    text->setCallback([](const std::string &) {{ return false; }});
+                    text->setFont("mono-bold");
+                    text->setFixedWidth(width - 40);
+                }}
+            }};
+
 
             int main(int /* argc */, char ** /* argv */) {{
                 nanogui::init();
@@ -327,7 +341,7 @@ if __name__ == "__main__":
         for icon_name, icon_def, icon_code in cdefs:
             # icon_def is `#define FONTNAME_ICON_X`
             cpp_def = icon_def.split(" ")[1]
-            cpp_example.write("        ADD_ICON({cpp_def});\n".format(cpp_def=cpp_def))
+            cpp_example.write("        ADD_ICON(wrapper, {cpp_def}, half_width);\n".format(cpp_def=cpp_def))
 
         # close out the cpp example
         cpp_example.write(textwrap.dedent('''
@@ -394,11 +408,37 @@ if __name__ == "__main__":
                         # self.mTextBoxIconExtraScale    = self.defaultTextBoxIconExtraScale()
 
 
-                # Return false essentially makes it not possible to actually edit this text
-                # box, but keeping it editable=true allows selection for copy-paste.  If the
-                # text box is not editable, then the user cannot highlight it.
-                def textbox_callback(val):
-                    return False
+                class EscapeScreen(nanogui.Screen):
+                    def __init__(self, size, title, resizable):
+                        super(EscapeScreen, self).__init__(size, title, resizable)
+
+                    # allow <ESCAPE> to exit
+                    def keyboardEvent(self, key, scancode, action, modifiers):
+                        if key == nanogui.glfw.KEY_ESCAPE and modifiers == 0:
+                            self.setVisible(False)
+                            return True
+
+                        return super(EscapeScreen, self).keyboardEvent(key, scancode, action, modifiers)
+
+
+                class IconBox(nanogui.Widget):
+                    def __init__(self, parent, name, icon, width):
+                        super(IconBox, self).__init__(parent)
+
+                        self.setLayout(nanogui.BoxLayout(nanogui.Orientation.Horizontal))
+
+                        b = nanogui.Button(self, "", icon)
+                        b.setFixedWidth(40)
+
+                        text = nanogui.TextBox(self, name)
+                        text.setDefaultValue(name)
+                        text.setEditable(True)
+                        # Return false essentially makes it not possible to actually edit this text
+                        # box, but keeping it editable=true allows selection for copy-paste.  If the
+                        # text box is not editable, then the user cannot highlight it.
+                        text.setCallback(lambda x: False)
+                        text.setFont("mono-bold")
+                        text.setFixedWidth(width - 40)
 
 
                 if __name__ == "__main__":
@@ -409,7 +449,7 @@ if __name__ == "__main__":
                     height     = 800
 
                     # create a fixed size screen with one window
-                    screen = Screen((width, height), "NanoGUI {Name} Icons", False)
+                    screen = EscapeScreen((width, height), "NanoGUI {Name} Icons", False)
 
                     # NOTE: if doing a custom screen derived class, for some reason if you
                     #       load a custom theme object and call setTheme in the constructor
@@ -440,16 +480,7 @@ if __name__ == "__main__":
                     # of the icons -- see cpp example for alternative...
                     for key in {name}.__dict__.keys():
                         if key.startswith("ICON_"):
-                            wrapper_icon = Widget(wrapper)
-                            wrapper_icon.setLayout(BoxLayout(Orientation.Horizontal))
-                            b = Button(wrapper_icon, "", {name}.__dict__[key])
-                            b.setFixedWidth(40)
-                            text = TextBox(wrapper_icon, "{name}.{{0}}".format(key))
-                            text.setDefaultValue("{name}.{{0}}".format(key))
-                            text.setEditable(True) # allow copy-paste
-                            text.setCallback(textbox_callback) # disable changes
-                            text.setFont("mono-bold")
-                            text.setFixedWidth(half_width - 40)
+                            IconBox(wrapper, key, {name}.__dict__[key], half_width)
 
                     screen.performLayout()
                     screen.drawAll()
